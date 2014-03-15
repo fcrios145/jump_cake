@@ -1,0 +1,111 @@
+ 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Blog | Panchito y su laptop</title>
+    <meta charset="UTF-8">
+    <meta name=description content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php
+    echo $this->Html->meta('icon');
+
+    echo $this->Html->css('bootstrap');
+    echo $this->Html->css('blog');
+
+    echo $this->fetch('meta');
+    echo $this->fetch('css');
+    echo $this->fetch('script');
+    ?>
+</head>
+<body>
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+            <a class="blog-nav-item active" href="#">Home</a>
+            <a class="blog-nav-item" href="#">New features</a>
+            <a class="blog-nav-item" href="#">Press</a>
+            <a class="blog-nav-item" href="#">New hires</a>
+            <a class="blog-nav-item" href="#">About</a>
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="blog-header">
+        <h1 class="blog-title">Panchito y su laptop Blog</h1>
+
+        <p class="lead blog-description">Posts con comentarios =D.</p>
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+            <div class="blog-post">
+                <h2 class="blog-post-title">Sample blog post</h2>
+
+                <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+
+                <p>This blog post shows a few different types of content that's supported and styled with Bootstrap.
+                    Basic typography, images, and code are all supported.</p>
+                <hr>
+                <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus.
+                    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere
+                    consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                <blockquote>
+                    <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare
+                        vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </blockquote>
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
+                    fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+            
+            </div>
+
+
+
+            <ul class="pager">
+                <li><a href="#">Previous</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+
+        </div>
+        <!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>About</h4>
+
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
+                    fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            </div>
+
+
+        </div>
+        <!-- /.blog-sidebar -->
+
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+<div class="blog-footer">
+    <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a
+            href="https://twitter.com/mdo">@mdo</a>.</p>
+
+    <p>
+        <a href="#">Back to top</a>
+    </p>
+</div>
+
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery.js"></script>
+<!-- Bootstrap JavaScript -->
+
+<?php echo $this->Html->script('bootstrap'); ?>
+
+</body>
+</html>
