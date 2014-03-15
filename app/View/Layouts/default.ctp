@@ -38,7 +38,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Project name</a>
+                        <a id="doubleJump" class="navbar-brand" href="#">Project name</a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
@@ -64,6 +64,11 @@
             </div>
             <?php echo $this->fetch('content'); ?>
             <?php echo $this->Session->flash(); ?>
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <a href="#">DoubleJump</a>
+                <p>&copy; 2014 Double Jump, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>
         </div>
     </div>
 
