@@ -35,7 +35,7 @@
       <file leaf-file-name="default.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="41" selection-start="1422" selection-end="1422" vertical-scroll-proportion="-2.4313726" vertical-offset="476" max-vertical-offset="1320">
+            <state line="67" column="69" selection-start="2980" selection-end="2980" vertical-scroll-proportion="-5.72549" vertical-offset="713" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="custom-nav-bar.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/webroot/css/custom-nav-bar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="14" selection-start="3006" selection-end="3006" vertical-scroll-proportion="0.90066224" vertical-offset="1751" max-vertical-offset="2415">
+            <state line="149" column="42" selection-start="2921" selection-end="2921" vertical-scroll-proportion="0.70198673" vertical-offset="1811" max-vertical-offset="2430">
               <folding />
             </state>
           </provider>
@@ -327,7 +327,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-10" width="1380" height="785" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5673534" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -508,14 +508,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="41" selection-start="1422" selection-end="1422" vertical-scroll-proportion="-2.4313726" vertical-offset="476" max-vertical-offset="1320">
+        <state line="67" column="69" selection-start="2980" selection-end="2980" vertical-scroll-proportion="-5.72549" vertical-offset="713" max-vertical-offset="1305">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/css/custom-nav-bar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="14" selection-start="3006" selection-end="3006" vertical-scroll-proportion="0.90066224" vertical-offset="1751" max-vertical-offset="2415">
+        <state line="149" column="42" selection-start="2921" selection-end="2921" vertical-scroll-proportion="0.70198673" vertical-offset="1811" max-vertical-offset="2430">
           <folding />
         </state>
       </provider>
