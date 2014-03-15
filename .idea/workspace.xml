@@ -26,16 +26,34 @@
       <file leaf-file-name="home.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="45" selection-start="1259" selection-end="1259" vertical-scroll-proportion="-11.75" vertical-offset="198" max-vertical-offset="3495">
+            <state line="38" column="45" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="3585">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppModel.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AppModel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Model/AppModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="575" selection-end="575" vertical-scroll-proportion="0.35771066" vertical-offset="0" max-vertical-offset="629">
+            <state line="9" column="2" selection-start="303" selection-end="303" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="52" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.2039801" vertical-offset="537" max-vertical-offset="1140">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="229" column="57" selection-start="8835" selection-end="8835" vertical-scroll-proportion="-9.875" vertical-offset="2943" max-vertical-offset="5610">
               <folding />
             </state>
           </provider>
@@ -52,15 +70,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/Model/AppModel.php" />
+        <option value="$PROJECT_DIR$/app/Config/core.php" />
+        <option value="$PROJECT_DIR$/app/Config/database.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-4" />
-    <option name="width" value="1382" />
-    <option name="height" value="780" />
+    <option name="x" value="-7" />
+    <option name="y" value="-10" />
+    <option name="width" value="1380" />
+    <option name="height" value="785" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -88,7 +108,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -97,8 +116,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,7 +233,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-4" width="1382" height="780" extended-state="6" />
+    <frame x="-7" y="-10" width="1380" height="785" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -193,6 +273,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="45" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/AppModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="5" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="3585">
@@ -236,13 +330,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="6" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3585">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/AppModel.php">
@@ -253,13 +347,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="56" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3585">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/AppModel.php">
@@ -282,18 +376,32 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="45" selection-start="1259" selection-end="1259" vertical-scroll-proportion="-11.75" vertical-offset="198" max-vertical-offset="3495">
+        <state line="38" column="45" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="3585">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/AppModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="575" selection-end="575" vertical-scroll-proportion="0.35771066" vertical-offset="0" max-vertical-offset="629">
+        <state line="9" column="2" selection-start="303" selection-end="303" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="57" selection-start="8835" selection-end="8835" vertical-scroll-proportion="-9.875" vertical-offset="2943" max-vertical-offset="5610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="52" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.2039801" vertical-offset="537" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>
