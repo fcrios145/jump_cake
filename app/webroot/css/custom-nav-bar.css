@@ -154,3 +154,7 @@ body {
     width: 200px;
     height: 50px;
 }
+
+.panel-heading {
+    background-color: #000000 !important;
+}
