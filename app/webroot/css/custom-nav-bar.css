@@ -155,6 +155,15 @@ body {
     height: 50px;
 }
 
+#twitter {
+    background-image: url(img/twitter-logo.png);
+    display: inline-block;
+    margin: 0 auto;
+    text-indent: -9999px;
+    width: 48px;
+    height: 48px;
+}
+
 .panel-heading {
     background-color: #000000 !important;
 }

@@ -67,6 +67,7 @@
             <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
                 <p>&copy; 2014 Double Jump, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                <link rel="stylesheet" href="#" id="twitter"/>
             </footer>
         </div>
     </div>
