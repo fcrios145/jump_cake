@@ -32,10 +32,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NewsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/NewsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.24324325" vertical-offset="0" max-vertical-offset="555">
+            <state line="17" column="5" selection-start="481" selection-end="481" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Blog/app/Controller/PostsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="42" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1605">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Blog/app/View/Posts/view.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="0" selection-end="210" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_view.ctp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/View/News/admin_view.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="34" selection-start="164" selection-end="164" vertical-scroll-proportion="0.10810811" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -61,6 +88,7 @@
         <option value="$PROJECT_DIR$/app/Config/core.php" />
         <option value="$PROJECT_DIR$/app/View/News/admin_index.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/NewsController.php" />
+        <option value="$PROJECT_DIR$/app/View/News/admin_view.ctp" />
       </list>
     </option>
   </component>
@@ -85,7 +113,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -96,7 +124,83 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="News" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -168,11 +272,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.397351" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3960396" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23197027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23564954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -180,11 +284,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -204,13 +308,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/View/News/admin_index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="54" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/NewsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
@@ -446,14 +543,14 @@
           <ID>DATABASE</ID>
           <OriginalElement>5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.schema:blog_django</OriginalElement>
           <nodes>
-            <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.auth_group_permissions</node>
             <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.auth_permission</node>
+            <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.auth_group_permissions</node>
             <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.django_admin_log</node>
-            <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.django_content_type</node>
             <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.home_comments</node>
+            <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.django_content_type</node>
             <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.auth_user</node>
-            <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.auth_user_user_permissions</node>
             <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.django_session</node>
+            <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.auth_user_user_permissions</node>
             <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.auth_group</node>
             <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.home_posts</node>
             <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:blog_django.auth_user_groups</node>
@@ -476,8 +573,8 @@
           <ID>DATABASE</ID>
           <OriginalElement>5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.schema:TheDead</OriginalElement>
           <nodes>
-            <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:TheDead.news</node>
             <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:TheDead.authors</node>
+            <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:TheDead.news</node>
           </nodes>
           <notes />
           <edges />
@@ -505,7 +602,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/NewsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.24324325" vertical-offset="0" max-vertical-offset="555">
+        <state line="17" column="5" selection-start="481" selection-end="481" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/app/Controller/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/app/View/Posts/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="0" selection-end="210" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/News/admin_view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="34" selection-start="164" selection-end="164" vertical-scroll-proportion="0.10810811" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
