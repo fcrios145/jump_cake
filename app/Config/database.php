@@ -67,7 +67,7 @@ class DATABASE_CONFIG {
 		'host' => '127.0.0.1',
 		'login' => 'remoto',
 		'password' => '',
-		'database' => 'jump_cake',
+		'database' => 'TheDead',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
