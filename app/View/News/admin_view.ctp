@@ -1,5 +1,8 @@
-<h1><?php echo h($noticia['News']['titulo']); ?></h1>
+<hr/>
+<h1><?php echo h($news['News']['titulo']); ?><small><?php echo h($news['News']['author_id']); ?></small></h1>
 
-<p><small>Created: <?php echo $noticia['News']['created']; ?></small></p>
+<p><?php echo h($news['News']['body']); ?></p>
 
-<p><?php echo h($noticia['News']['body']); ?></p>
+<p><small>Created: <?php echo $news['News']['created']; ?></small></p>
+<hr/>
+
