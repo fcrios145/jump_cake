@@ -65,7 +65,7 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => '127.0.0.1',
-		'login' => 'remoto',
+		'login' => 'root',
 		'password' => '',
 		'database' => 'TheDead',
 		'prefix' => '',
