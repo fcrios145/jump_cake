@@ -4,6 +4,10 @@ class NewsController extends AppController {
 
     public $uses = array('News');
 
+    public function index() {
+
+    }
+
     public function admin_index() {
         $this->set('news', $this->News->find('all'));
     }

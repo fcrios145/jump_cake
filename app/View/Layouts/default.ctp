@@ -64,13 +64,13 @@
             </div>
             <?php echo $this->fetch('content'); ?>
             <?php echo $this->Session->flash(); ?>
-            <footer>
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2014 Double Jump, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-                <a id="twitter" href="#"></a>
-                <a id="facebook" href="#"></a>
-            </footer>
         </div>
+        <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2014 Double Jump, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <a id="twitter" href="#"></a>
+            <a id="facebook" href="#"></a>
+        </footer>
     </div>
 
 
