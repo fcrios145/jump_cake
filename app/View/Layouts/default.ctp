@@ -74,12 +74,20 @@
                 <div class="col-md-4">
                     <a id="doubleJump"  href="#"></a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" style="margin-top: 10px">
                     <small>2014 Double Jump Studios. Todos los derechos reservados. Double Jump Studios, The Dead son marcas comerciales, marcas de servicios o marcas registradas de Double Jump Studios.</small>
                 </div>
-                <div class="col-md-4 text-right">
-                    <a id="twitter" href="#"></a>
-                    <a id="facebook" href="#"></a>
+                <div class="col-md-4"">
+                    <div class="demo">
+                        <ul>
+                            <li><a href="#" title=""><span class="icon"><i aria-hidden="true" class="icon-facebook">
+                                        </i></span><span>Like</span> </a></li>
+                            <li><a href="#" title=""><span class="icon"><i aria-hidden="true" class="icon-twitter">
+                                        </i></span><span>Follow</span></a> </li>
+                        </ul>
+                    </div>
+<!--                    <a id="twitter" href="#"></a>-->
+<!--                    <a id="facebook" href="#"></a>-->
                 </div>
             </div>
         </footer>
