@@ -80,8 +80,10 @@
                 <div class="col-md-4"">
                     <div class="demo">
                         <ul>
-                            <li><a href="#" title=""><span class="icon"><i aria-hidden="true" class="icon-facebook">
+                            <li><a href="https://www.facebook.com/pages/Double-Jump-Studios/635128493223387?ref=hl" title=""><span class="icon"><i aria-hidden="true" class="icon-facebook">
                                         </i></span><span>Like</span> </a></li>
+                            <li><a href="#" title=""><span class="icon"><i aria-hidden="true" class="icon-youtube">
+                                        </i></span><span>Subscribe</span></a> </li>
                             <li><a href="#" title=""><span class="icon"><i aria-hidden="true" class="icon-twitter">
                                         </i></span><span>Follow</span></a> </li>
                         </ul>

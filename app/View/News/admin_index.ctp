@@ -52,7 +52,7 @@
             </td>
             <!--            Autor-->
             <td>
-                <?php echo $noticia['News']['author_id']?>
+                <?php echo $noticia['Author']['nick']?>
             </td>
         </tr>
     <?php endforeach; ?>
