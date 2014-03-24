@@ -11,11 +11,14 @@
     echo $this->Html->css('bootstrap.min');
     echo $this->Html->css('custom-nav-bar');
 
+    echo $this->Html->script('custom');
+
 
     echo $this->fetch('meta');
     echo $this->fetch('css');
     echo $this->fetch('script');
     ?>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <title>Title</title>
     <meta charset="UTF-8">
     <meta name=description content="">
@@ -28,6 +31,8 @@
     <div class="navbar-wrapper">
         <div class="container">
 
+            <?php echo $this->Html->image('deadLogo.png', array('alt' => 'thedead', 'id' => 'logo'));     ?>
+
             <div class="navbar navbar-inverse navbar-static-top" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
@@ -38,7 +43,6 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a id="deadLogo" class="navbar-brand" href="#">Project name</a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
@@ -64,21 +68,21 @@
             </div>
             <?php echo $this->fetch('content'); ?>
             <?php echo $this->Session->flash(); ?>
-            <footer>
-                <div class="row">
-                    <div class="col-md-4">
-                        <a id="doubleJump"  href="#"></a>
-                    </div>
-                    <div class="col-md-4">
-                        <small>2014 Double Jump Studios. Todos los derechos reservados. Double Jump Studios, The Dead son marcas comerciales, marcas de servicios o marcas registradas de Double Jump Studios.</small>
-                    </div>
-                    <div class="col-md-4 text-right">
-                        <a id="twitter" href="#"></a>
-                        <a id="facebook" href="#"></a>
-                    </div>
-                </div>
-            </footer>
         </div>
+        <footer>
+            <div class="row">
+                <div class="col-md-4">
+                    <a id="doubleJump"  href="#"></a>
+                </div>
+                <div class="col-md-4">
+                    <small>2014 Double Jump Studios. Todos los derechos reservados. Double Jump Studios, The Dead son marcas comerciales, marcas de servicios o marcas registradas de Double Jump Studios.</small>
+                </div>
+                <div class="col-md-4 text-right">
+                    <a id="twitter" href="#"></a>
+                    <a id="facebook" href="#"></a>
+                </div>
+            </div>
+        </footer>
     </div>
 
 

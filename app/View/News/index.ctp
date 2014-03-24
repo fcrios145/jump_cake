@@ -28,16 +28,7 @@
                 </div>
             </div>
         </div>
-        <div class="item">
-            <img src="http://placehold.it/1500X500" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Percentage-based sizing</h1>
-                    <p>With "mobile-first" there is now only one percentage-based grid.</p>
-                    <p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
-                </div>
-            </div>
-        </div>
+        <div class="item" style="background-color: transparent"></div>
     </div>
     <!-- Controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -73,7 +64,7 @@
 
 <!--Noticias Recientes-->
 
-<h1>Noticias mas recientes</h1>
+<h1 id="noticias">Noticias recientes</h1>
 
 <?php foreach ($news as $noticia): ?>
 
@@ -87,7 +78,7 @@
                     <img src="http://placehold.it/140x140" class="img-rounded" style="width: 100px; height: 100px">
                 </div>
                 <div class="col-md-10">
-                    <?php echo $noticia['News']['body'] ?>
+                    <p><?php echo $noticia['News']['body'] ?></p>
                 </div>
             </div>
         </div>
