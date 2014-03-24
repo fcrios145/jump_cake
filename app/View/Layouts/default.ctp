@@ -38,7 +38,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a id="doubleJump" class="navbar-brand" href="#">Project name</a>
+                        <a id="deadLogo" class="navbar-brand" href="#">Project name</a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
@@ -64,13 +64,21 @@
             </div>
             <?php echo $this->fetch('content'); ?>
             <?php echo $this->Session->flash(); ?>
+            <footer>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a id="doubleJump"  href="#"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <small>2014 Double Jump Studios. Todos los derechos reservados. Double Jump Studios, The Dead son marcas comerciales, marcas de servicios o marcas registradas de Double Jump Studios.</small>
+                    </div>
+                    <div class="col-md-4 text-right">
+                        <a id="twitter" href="#"></a>
+                        <a id="facebook" href="#"></a>
+                    </div>
+                </div>
+            </footer>
         </div>
-        <footer>
-            <p class="pull-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2014 Double Jump, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-            <a id="twitter" href="#"></a>
-            <a id="facebook" href="#"></a>
-        </footer>
     </div>
 
 

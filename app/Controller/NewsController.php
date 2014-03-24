@@ -5,6 +5,12 @@ class NewsController extends AppController {
     public $uses = array('News');
 
     public function index() {
+        $this->set('news', $this->News->find('all',
+            array(
+                'order' => array('News.created'),
+                'limit' => 3,
+            )
+        ));
 
     }
 

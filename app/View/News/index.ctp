@@ -56,8 +56,8 @@
 
 <div class="jumbotron">
     <div class="container">
-        <h1>Hello, world!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet animi, architecto at atque corporis dolores doloribus laborum molestias natus neque nesciunt nisi, obcaecati quod saepe similique ullam ut voluptas.</p>
+        <h1>Que esperas!</h1>
+        <p>Adentrate en el mundo donde los muertos ya no son lo que eran antes, vive las mejores aventuras con tus mejores amigos y comparte tus avances en las redes sociales</p>
         <p>
             <a class="btn btn-primary btn-lg">Jugar</a>
         </p>
@@ -74,40 +74,30 @@
 <!--Noticias Recientes-->
 
 <h1>Noticias mas recientes</h1>
-<div class="panel panel-default" style="margin-left: 15px; margin-right: 15px">
-    <div class="panel-heading">
-        <h3 class="panel-title">Panel title</h3>
-    </div>
-    <div class="panel-body">
-        <div class="row">
-            <div class="col-md-2">
-                <img src="http://placehold.it/140x140" class="img-rounded" style="width: 100px; height: 100px">
-            </div>
-            <div class="col-md-10">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores aspernatur explicabo, iste
-                iure molestiae nobis quidem quis, sit totam, veniam veritatis vitae voluptates? Deserunt dignissimos
-                modi quae ut vero.
-            </div>
-        </div>
-    </div>
-</div>
-<hr>
-<div class="panel panel-default" style="margin-left: 15px; margin-right: 15px">
-    <div class="panel-heading">
-        <h3 class="panel-title">Panel title</h3>
-    </div>
-    <div class="panel-body">
-        <div class="row">
-            <div class="col-xs-2">
-                <img src="http://placehold.it/140x140" class="img-rounded" style="width: 100px; height: 100px">
-            </div>
-            <div class="col-xs-10">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci dolor dolorem esse impedit in,
-                itaque iusto pariatur, quis reiciendis repellendus sed veritatis voluptas! A accusantium harum natus
-                tenetur ullam.
-            </div>
-        </div>
-    </div>
 
-    <!--Fin noticias recientes-->
+<?php foreach ($news as $noticia): ?>
+
+    <div class="panel panel-default" style="margin-left: 15px; margin-right: 15px">
+        <div class="panel-heading">
+            <h3 class="panel-title"><?php echo $noticia['News']['titulo'] ?></h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="http://placehold.it/140x140" class="img-rounded" style="width: 100px; height: 100px">
+                </div>
+                <div class="col-md-10">
+                    <?php echo $noticia['News']['body'] ?>
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer text-right">
+            <small>Autor: </small><?php echo $noticia['Author']['nick'] ?>
+        </div>
+    </div>
+    <hr>
+
+<?php endforeach ?>
+
+<!--Fin noticias recientes-->
 
