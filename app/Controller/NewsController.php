@@ -2,12 +2,12 @@
 
 class NewsController extends AppController {
 
-    public $uses = array('News');
+    public $uses = array('News','Author');
 
     public function index() {
         $this->set('news', $this->News->find('all',
             array(
-                'order' => array('News.created'),
+                'order' => array('News.created DESC'),
                 'limit' => 3,
             )
         ));
@@ -31,7 +31,7 @@ class NewsController extends AppController {
 
     public function admin_add()
     {
-        if ($this->request->is('news')) {
+        if ($this->request->is('post')) {
             $this->News->create();
             if ($this->News->save($this->request->data)) {
                 $this->Session->setFlash(__('Noticia Guardada.'));
@@ -39,6 +39,18 @@ class NewsController extends AppController {
             }
             $this->Session->setFlash(__('No fue posible guardar tu noticia :('));
         }
+        $this->set('authors', $this->Author->find('list', array('fields' => array('id','nick'))
+        ));
+
+    }
+
+    //Listar noticias de 10 en 10
+    public function all() {
+        $this->set('news', $this->News->find('all',
+            array(
+                'order' => array('News.created DESC'),
+            )
+        ));
     }
 
 }

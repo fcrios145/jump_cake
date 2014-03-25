@@ -213,6 +213,7 @@ body {
 
 h1,h2,h3,p {
     font-family: dead;
+    color: #ffffff;
 }
 
 footer {
@@ -454,3 +455,33 @@ you can use the generic selector below, but it's slower:
 }
 
 /*Fin Iconos sociales*/
+
+.noticias-heading{
+    color: #ffffff;
+    background-image: -o-linear-gradient(bottom, #000000 0%, #000000 100%);
+    background-image: -moz-linear-gradient(bottom, #000000 0%, #000000 100%);
+    background-image: -webkit-linear-gradient(bottom, #000000 0%, #000000 100%);
+    background-image: -ms-linear-gradient(bottom, #000000 0%, #000000 100%);
+    background-image: linear-gradient(to bottom, #000000 0%, #000000 100%);
+}
+
+.noticias-body {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: -o-linear-gradient(bottom, #000000 17%, #3F653A 100%);
+    background-image: -moz-linear-gradient(bottom, #000000 17%, #3F653A 100%);
+    background-image: -webkit-linear-gradient(bottom, #000000 17%, #3F653A 100%);
+    background-image: -ms-linear-gradient(bottom, #000000 17%, #3F653A 100%);
+    background-image: linear-gradient(to bottom, #000000 17%, #3F653A 100%);
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.noticias-footer {
+    background-image: -o-linear-gradient(bottom, #000000 0%, #3F653A 0%);
+    background-image: -moz-linear-gradient(bottom, #000000 0%, #3F653A 0%);
+    background-image: -webkit-linear-gradient(bottom, #000000 0%, #3F653A 0%);
+    background-image: -ms-linear-gradient(bottom, #000000 0%, #3F653A 0%);
+    background-image: linear-gradient(to bottom, #000000 0%, #3F653A 0%);
+    color: #ffffff;
+}

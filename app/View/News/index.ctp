@@ -8,7 +8,10 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-        <div class="item active">
+        <div class="item active" style="background-color: transparent">
+
+        </div>
+        <div class="item">
             <img src="/assets/example/bg_suburb.jpg" class="img-responsive">
             <div class="container">
                 <div class="carousel-caption">
@@ -28,7 +31,6 @@
                 </div>
             </div>
         </div>
-        <div class="item" style="background-color: transparent"></div>
     </div>
     <!-- Controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -45,7 +47,7 @@
 
 <!--Pequeña descripcion del juego-->
 
-<div class="jumbotron">
+<div class="jumbotron" style="background-color: transparent !important;">
     <div class="container">
         <h1>Que esperas!</h1>
         <p>Adentrate en el mundo donde los muertos ya no son lo que eran antes, vive las mejores aventuras con tus mejores amigos y comparte tus avances en las redes sociales</p>
@@ -68,8 +70,8 @@
 
 <?php foreach ($news as $noticia): ?>
 
-    <div class="panel panel-default" style="margin-left: 15px; margin-right: 15px">
-        <div class="panel-heading">
+    <div class="panel panel-default noticias-body">
+        <div class="panel-heading noticias-heading">
             <h3 class="panel-title"><?php echo $noticia['News']['titulo'] ?></h3>
         </div>
         <div class="panel-body">
@@ -82,7 +84,7 @@
                 </div>
             </div>
         </div>
-        <div class="panel-footer text-right">
+        <div class="panel-footer text-right noticias-footer">
             <small>Autor: </small><?php echo $noticia['Author']['nick'] ?>
         </div>
     </div>
