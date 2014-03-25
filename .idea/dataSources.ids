@@ -22,6 +22,13 @@
       <primary-key name="PRIMARY" columns="id"/>
       <exported-key name="fk_news_authors" table="news" schema="" catalog="TheDead" columns="author_id"/>
     </table>
+    <table name="items" schema="" catalog="TheDead" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="img" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
     <table name="news" schema="" catalog="TheDead" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="created" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
