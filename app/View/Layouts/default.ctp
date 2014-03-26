@@ -65,23 +65,30 @@
                             <li><?php echo $this->Html->link(
                                     'Libreria',
                                     array(
-                                        'controller' => 'news',
+                                        'controller' => 'items',
                                         'action' => 'all',
                                         'full_base' => true
                                     )
                                 ); ?></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b
-                                        class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Nav header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
+                            <li>
+                                <?php echo $this->Html->link(
+                                    'Acerca De',
+                                    array(
+                                        'controller' => 'pages',
+                                        'action' => 'about',
+                                        'full_base' => true
+                                    )
+                                ); ?>
+                            </li>
+                            <li>
+                                <?php echo $this->Html->link(
+                                    'Acceder',
+                                    array(
+                                        'controller' => 'users',
+                                        'action' => 'login',
+                                        'full_base' => true
+                                    )
+                                ); ?>
                             </li>
                         </ul>
                     </div>
@@ -122,5 +129,10 @@
 <script src="//code.jquery.com/jquery.js"></script>
 <!-- Bootstrap JavaScript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#myCarousel').carousel({interval: 2000});
+        });
+    </script>
 </body>
 </html>

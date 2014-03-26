@@ -486,3 +486,6 @@ you can use the generic selector below, but it's slower:
     color: #ffffff;
 }
 
+iframe[id^='twitter-widget-']{ width:100%;}
+
+
