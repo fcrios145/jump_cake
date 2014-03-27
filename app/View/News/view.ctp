@@ -1,8 +1,7 @@
-
 <!--  Listado de noticias  -->
 <?php $paginator = $this->Paginator; ?>
 
-<?php if($datas){ ?>
+<?php if ($datas) { ?>
 
     <h1 id="noticias">Noticias</h1>
     <?php foreach ($datas as $noticia): ?>
@@ -22,7 +21,7 @@
                 </div>
             </div>
             <div class="panel-footer text-right noticias-footer">
-                <small>Autor: </small><?php echo $noticia['Author']['nick'] ?>
+                <small>Autor:</small><?php echo $noticia['Author']['nick'] ?>
             </div>
         </div>
         <hr>
@@ -35,7 +34,7 @@
     // 'prev' page button,
     // we can check using the paginator hasPrev() method if there's a previous page
     // save with the 'next' page button
-    if($paginator->hasPrev()){
+    if ($paginator->hasPrev()) {
         echo $paginator->prev("Prev");
     }
     ?>
@@ -44,10 +43,11 @@
     // the 'number' page buttons
     echo $paginator->numbers(array('modulus' => 2));
     ?>
+    
 
     <?php
     // for the 'next' button
-    if($paginator->hasNext()){
+    if ($paginator->hasNext()) {
         echo $paginator->next("Next");
     }
     ?>
@@ -57,7 +57,7 @@
     echo $paginator->last("Last");
     ?>
 
-    <?php }
-    else{
+<?php
+} else {
     echo "No users found.";
 } ?>

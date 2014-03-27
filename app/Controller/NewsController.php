@@ -60,11 +60,11 @@ class NewsController extends AppController
     //Listar noticias de X en X
     public function all()
     {
-        $this->set('news', $this->News->find('all',
-            array(
-                'order' => array('News.created DESC'),
-            )
-        ));
+        $this->Paginator->settings = $this->paginate;
+
+        // similar to findAll(), but fetches paged results
+        $data = $this->Paginator->paginate('News');
+        $this->set('datas', $data);
     }
 
     public function view() {
