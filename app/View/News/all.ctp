@@ -43,7 +43,7 @@
     // the 'number' page buttons
     echo $paginator->numbers(array('modulus' => 2));
     ?>
-
+p
 
     <?php
     // for the 'next' button

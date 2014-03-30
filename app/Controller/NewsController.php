@@ -8,11 +8,13 @@ class NewsController extends AppController
     public $components = array('Paginator');
 
     public $paginate = array(
-        'limit' => 2,
+        'limit' => 4,
         'order' => array(
             'News.created' => 'desc'
         )
     );
+
+
 
     public function index()
     {
@@ -60,14 +62,6 @@ class NewsController extends AppController
     //Listar noticias de X en X
     public function all()
     {
-        $this->Paginator->settings = $this->paginate;
-
-        // similar to findAll(), but fetches paged results
-        $data = $this->Paginator->paginate('News');
-        $this->set('datas', $data);
-    }
-
-    public function view() {
         $this->Paginator->settings = $this->paginate;
 
         // similar to findAll(), but fetches paged results
