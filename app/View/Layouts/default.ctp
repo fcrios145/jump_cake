@@ -11,8 +11,6 @@
     echo $this->Html->css('bootstrap.min');
     echo $this->Html->css('custom-nav-bar');
 
-    echo $this->Html->script('custom');
-
 
     echo $this->fetch('meta');
     echo $this->fetch('css');
@@ -131,7 +129,7 @@
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $('#myCarousel').carousel({interval: 2000});
+            $('#myCarousel').carousel({interval: 3000});
         });
     </script>
 </body>

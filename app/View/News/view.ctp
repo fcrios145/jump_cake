@@ -1,63 +1,20 @@
-<!--  Listado de noticias  -->
-<?php $paginator = $this->Paginator; ?>
+<div class="row" style="text-align: justify; margin-bottom: 20px; background-color: rgba(0, 0, 0, 0.75)">
+    <div class="container">
+        <div class="col-sm-8 blog-main">
 
-<?php if ($datas) { ?>
+            <div class="blog-post">
+                <h2 class="blog-post-title"><?php echo $news['News']['titulo'] ?></h2>
 
-    <h1 id="noticias">Noticias</h1>
-    <?php foreach ($datas as $noticia): ?>
+                <p class="blog-post-meta"><?php echo $news['News']['created'] ?><a
+                        href="#"><?php echo $news['Author']['nick'] ?></a></p>
 
-        <div class="panel panel-default noticias-body">
-            <div class="panel-heading noticias-heading">
-                <h3 class="panel-title"><?php echo $noticia['News']['titulo'] ?></h3>
-            </div>
-            <div class="panel-body">
-                <div class="row">
-                    <div class="col-md-2">
-                        <img src="http://placehold.it/140x140" class="img-rounded" style="width: 100px; height: 100px">
-                    </div>
-                    <div class="col-md-10">
-                        <p><?php echo $noticia['News']['body'] ?></p>
-                    </div>
-                </div>
-            </div>
-            <div class="panel-footer text-right noticias-footer">
-                <small>Autor:</small><?php echo $noticia['Author']['nick'] ?>
+                <p><?php echo $news['News']['body'] ?></p>
+
             </div>
         </div>
-        <hr>
+        <div class="col-sm-4">
 
-    <?php endforeach ?>
+        </div>
+    </div>
+</div>
 
-    <?php echo $paginator->first("First"); ?>
-
-    <?php
-    // 'prev' page button,
-    // we can check using the paginator hasPrev() method if there's a previous page
-    // save with the 'next' page button
-    if ($paginator->hasPrev()) {
-        echo $paginator->prev("Prev");
-    }
-    ?>
-
-    <?php
-    // the 'number' page buttons
-    echo $paginator->numbers(array('modulus' => 2));
-    ?>
-    
-
-    <?php
-    // for the 'next' button
-    if ($paginator->hasNext()) {
-        echo $paginator->next("Next");
-    }
-    ?>
-
-    <?php
-    // the 'last' page button
-    echo $paginator->last("Last");
-    ?>
-
-<?php
-} else {
-    echo "No users found.";
-} ?>

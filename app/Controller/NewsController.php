@@ -69,6 +69,18 @@ class NewsController extends AppController
         $this->set('datas', $data);
     }
 
+    /*Vista para una noticia en especifico con sus respectivos comentarios*/
+    public function view($id) {
+        if(!$id) {
+            throw new NotFoundException(__('Noticia no encontrada'));
+        }
+        $noticia = $this->News->findById($id);
+        if (!$noticia) {
+            throw new NotFoundException(__('Noticia no encontrada'));
+        }
+        $this->set('news', $noticia);
+    }
+
 }
 
 ?>

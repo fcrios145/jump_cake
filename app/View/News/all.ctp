@@ -8,7 +8,12 @@
 
         <div class="panel panel-default noticias-body">
             <div class="panel-heading noticias-heading">
-                <h3 class="panel-title"><?php echo $noticia['News']['titulo'] ?></h3>
+                <h3 class="panel-title"><?php
+                    echo $this->Html->link(
+                        $noticia['News']['titulo'],
+                        array('action' => 'view', $noticia['News']['id'])
+                    );
+                    ?></h3>
             </div>
             <div class="panel-body">
                 <div class="row">

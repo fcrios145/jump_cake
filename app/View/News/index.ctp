@@ -1,3 +1,14 @@
+<div id="myModal" class="modal hide fade hidden-phone hidden-tablet" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    </div>
+    <div class="modal-body">
+        <iframe width="600" height="390" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+</div>
+
+
+
 <!-- Carousel
 ================================================== -->
 <div id="myCarousel" class="carousel slide">
@@ -12,22 +23,28 @@
 
         </div>
         <div class="item">
-            <img src="/assets/example/bg_suburb.jpg" class="img-responsive">
+            <?php echo $this->Html->image('slider1.png', array('alt' => 'slider1', 'class' => 'img-responsive'));     ?>
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Bootstrap 3 Carousel Layout</h1>
-                    <pthis is="" an="" example="" layout="" with="" carousel="" that="" uses="" the="" bootstrap="" 3="" styles.<="" small=""><p></p>
-                    <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com">Learn More</a>
+<!--                    <h1>Bootstrap 3 Carousel Layout</h1>-->
+<!--                    <pthis is="" an="" example="" layout="" with="" carousel="" that="" uses="" the="" bootstrap="" 3="" styles.<="" small=""><p></p>-->
+<!--                    <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com">Learn More</a>-->
                     </p></pthis></div>
             </div>
         </div>
         <div class="item">
-            <img src="http://lorempixel.com/1500/600/abstract/1" class="img-responsive">
+
+
+            <?php echo $this->Html->image('slider2.png', array('alt' => 'slider2', 'class' => 'img-responsive'));     ?>
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Changes to the Grid</h1>
-                    <p>Bootstrap 3 still features a 12-column grid, but many of the CSS class names have completely changed.</p>
-                    <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+<!--                    <h1>Titulo</h1>-->
+<!--                    <p>Take me to the game.</p>-->
+                    <p><?php echo $this->Html->link(__('Video', true),
+                            array('controller' => 'pages', 'action' => 'video'),
+                            array('class' => array('btn', 'btn-large', 'btn-primary', 'btn-default')
+                            )); ?></p>
+<!--                    <p><a class="btn btn-large btn-primary btn-default" href="#">Play</a></p>-->
                 </div>
             </div>
         </div>
@@ -72,7 +89,13 @@
 
     <div class="panel panel-default noticias-body">
         <div class="panel-heading noticias-heading">
-            <h3 class="panel-title"><?php echo $noticia['News']['titulo'] ?></h3>
+            <h3 class="panel-title"><?php
+                echo $this->Html->link(
+                    $noticia['News']['titulo'],
+                    array('action' => 'view', $noticia['News']['id'])
+                );
+                ?></h3>
+<!--            <h3 class="panel-title">--><?php //echo $noticia['News']['titulo'] ?><!--</h3>-->
         </div>
         <div class="panel-body">
             <div class="row">
