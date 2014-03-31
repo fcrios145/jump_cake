@@ -31,7 +31,9 @@
 <div class="container">
     <!--    Formulario-->
     <div class="row">
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+
+        </div>
         <div class="col-md-4" style="background-color: rgba(0, 0, 0, 0.51); margin-bottom: 20px;">
 <!--            <form accept-charset="utf-8" method="post" class="form-signin" role="form" action="/users/login">-->
                 <?php echo $this->Session->flash('auth'); ?>
@@ -63,10 +65,14 @@
 
     <div class="jumbotron" style="background-color: rgba(0, 0, 0, 0.51); margin-bottom: 20px; color: #000">
         <div class="container">
-            <h1>New to The Dead Ate My Friends</h1>
-            <p>Contents...</p>
+            <h1 style="color: #ffffff">New to The Dead Ate My Friends</h1>
+<!--            <p>Contents...</p>-->
             <p>
-                <a class="btn btn-primary btn-lg">Sign in</a>
+            <p><?php echo $this->Html->link(__('Registrarse', true),
+                    array('controller' => 'users', 'action' => 'add'),
+                    array('class' => array('btn', 'btn-large', 'btn-primary', 'btn-default')
+                    )); ?></p>
+<!--                <a class="btn btn-primary btn-lg">Sign in</a>-->
             </p>
         </div>
     </div>

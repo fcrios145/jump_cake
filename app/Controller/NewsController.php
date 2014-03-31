@@ -3,14 +3,29 @@
 class NewsController extends AppController
 {
 
-    public $uses = array('News', 'Author');
+    public $uses = array('News', 'Author', 'Comment', 'User');
 
-    public $components = array('Paginator');
+//    public $components = array('Paginator');
 
     public $paginate = array(
         'limit' => 4,
         'order' => array(
             'News.created' => 'desc'
+        )
+    );
+
+        public $components = array(
+        'Paginator',
+            'Session',
+        'Auth' => array(
+            'loginRedirect' => array(
+                'controller' => 'news',
+                'action' => 'index'
+            ),
+            'logoutRedirect' => array(
+                'controller' => 'news',
+                'action' => 'index',
+            )
         )
     );
 
@@ -79,8 +94,29 @@ class NewsController extends AppController
             throw new NotFoundException(__('Noticia no encontrada'));
         }
         $this->set('news', $noticia);
+
+        /*Buscar Comentarios - Filtrarlos por el id de la noticia - Mandarlos*/
+        $comentarios = $this->Comment->find('all',
+            array(
+                'conditions' => array('news_id' => $id
+            )));
+        $this->set('comentarios', $comentarios);
+
+        //Agregar comentario
+        if ($this->request->is('post')) {
+            $this->request->data['Comment']['news_id'] = $id;
+            $this->request->data['Comment']['user_id'] = $this->Session->read('Auth.User.id');
+            $this->Comment->create();
+            if ($this->Comment->save($this->request->data)) {
+                $this->Session->setFlash(__('Comentario guardado.'));
+                return $this->redirect($this->referer());
+            }
+            $this->Session->setFlash(__('No fue posible guardar tu comentario =('));
+
+        }
     }
 
 }
 
 ?>
+
