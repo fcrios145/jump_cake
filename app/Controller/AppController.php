@@ -32,4 +32,9 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
     public $components = array('Auth');
+    public function beforeFilter() {
+        parent::beforeFilter();
+        // Allow users to register and logout.
+        $this->Auth->allow();
+    }
 }
