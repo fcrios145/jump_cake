@@ -73,12 +73,12 @@ class DATABASE_CONFIG {
 	);
 
 	public $test = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
+        'datasource' => 'Database/Mysql',
+        'persistent' => false,
+        'host' => 'mysql.alwaysdata.com',
+        'login' => 'thedead',
+        'password' => 'jirameki22',
+        'database' => 'thedead_app',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
