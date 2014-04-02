@@ -5,18 +5,19 @@ class NewsController extends AppController
 
     public $uses = array('News', 'Author', 'Comment', 'User');
 
-//    public $components = array('Paginator');
+    public $helpers = array('Js');
 
     public $paginate = array(
-        'limit' => 4,
+        'limit' => 1,
         'order' => array(
             'News.created' => 'desc'
         )
     );
 
-        public $components = array(
+    public $components = array(
         'Paginator',
-            'Session',
+        'Session',
+        'RequestHandler',
         'Auth' => array(
             'loginRedirect' => array(
                 'controller' => 'news',
@@ -28,7 +29,6 @@ class NewsController extends AppController
             )
         )
     );
-
 
 
     public function index()
@@ -85,8 +85,9 @@ class NewsController extends AppController
     }
 
     /*Vista para una noticia en especifico con sus respectivos comentarios*/
-    public function view($id) {
-        if(!$id) {
+    public function view($id)
+    {
+        if (!$id) {
             throw new NotFoundException(__('Noticia no encontrada'));
         }
         $noticia = $this->News->findById($id);
@@ -99,7 +100,7 @@ class NewsController extends AppController
         $comentarios = $this->Comment->find('all',
             array(
                 'conditions' => array('news_id' => $id
-            )));
+                )));
         $this->set('comentarios', $comentarios);
 
         //Agregar comentario
@@ -116,7 +117,8 @@ class NewsController extends AppController
         }
     }
 
-    public function beforeFilter() {
+    public function beforeFilter()
+    {
         parent::beforeFilter();
         // Allow users to register and logout.
         $this->Auth->allow();

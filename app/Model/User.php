@@ -37,7 +37,7 @@ class User extends AppModel {
             ),
             'unique' => array(
                 'rule'    => array('isUniqueUsername'),
-                'message' => 'This username is already in use'
+                'message' => 'Nombre de usuario existente'
             ),
             'alphaNumericDashUnderscore' => array(
                 'rule'    => array('alphaNumericDashUnderscore'),
@@ -128,11 +128,14 @@ class User extends AppModel {
             )
         );
 
+
         if(!empty($username)){
-            if($this->data[$this->alias]['id'] == $username['User']['id']){
-                return true;
-            }else{
-                return false;
+            if(!empty($this->data[$this->alias]['id'])) {
+                if($this->data[$this->alias]['id'] == $username['User']['id']){
+                    return true;
+                }else{
+                    return false;
+                }
             }
         }else{
             return true;

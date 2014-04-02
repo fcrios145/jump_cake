@@ -530,3 +530,18 @@ iframe[id^='twitter-widget-']{ width:100%;}
     border-top-right-radius: 0;
 }
 /*fin login css*/
+
+
+/*Color paginado*/
+.pagination > li > a, .pagination > li > span {
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1px solid #ffffff;
+    color: #428BCA;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+}
+/*Fin color PAginado*/

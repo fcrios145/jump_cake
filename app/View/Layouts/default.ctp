@@ -10,6 +10,7 @@
 
     echo $this->Html->css('bootstrap.min');
     echo $this->Html->css('custom-nav-bar');
+    echo $this->Html->script('jquery');
 
 
     echo $this->fetch('meta');
@@ -79,14 +80,26 @@
                                 ); ?>
                             </li>
                             <li>
-                                <?php echo $this->Html->link(
-                                    'Acceder',
-                                    array(
-                                        'controller' => 'users',
-                                        'action' => 'login',
-                                        'full_base' => true
-                                    )
-                                ); ?>
+                                <?php
+                                if ($this->Session->read('Auth.User')){
+                                    echo $this->Html->link(
+                                        'Salir',
+                                        array(
+                                            'controller' => 'users',
+                                            'action' => 'logout',
+                                            'full_base' => true
+                                        ));
+                                } else {
+                                    echo $this->Html->link(
+                                        'Acceder',
+                                        array(
+                                            'controller' => 'users',
+                                            'action' => 'login',
+                                            'full_base' => true
+                                        )
+                                    );
+                                }
+                                 ?>
                             </li>
                         </ul>
                     </div>

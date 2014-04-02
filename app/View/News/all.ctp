@@ -31,38 +31,31 @@
         </div>
         <hr>
 
+
     <?php endforeach ?>
 
-    <?php echo $paginator->first("First"); ?>
+    <!--paginado-->
 
-    <?php
-    // 'prev' page button,
-    // we can check using the paginator hasPrev() method if there's a previous page
-    // save with the 'next' page button
-    if ($paginator->hasPrev()) {
-        echo $paginator->prev("Prev");
-    }
-    ?>
+    <div class="col-md-4">
 
-    <?php
-    // the 'number' page buttons
-    echo $paginator->numbers(array('modulus' => 2));
-    ?>
-p
+    </div>
+    <div class="col-md-4">
+        <ul class="pagination pagination-large pagination-centered">
+            <?php
+            echo $this->Paginator->prev(__('prev'), array('tag' => 'li'), null, array('tag' => 'li','class' => 'disabled','disabledTag' => 'a'));
+            echo $this->Paginator->numbers(array('separator' => '','currentTag' => 'a', 'currentClass' => 'active','tag' => 'li','first' => 1));
+            echo $this->Paginator->next(__('next'), array('tag' => 'li','currentClass' => 'disabled'), null, array('tag' => 'li','class' => 'disabled','disabledTag' => 'a'));
+            ?>
+        </ul>
+    </div>
+    <div class="col-md-4">
 
-    <?php
-    // for the 'next' button
-    if ($paginator->hasNext()) {
-        echo $paginator->next("Next");
-    }
-    ?>
+    </div>
 
-    <?php
-    // the 'last' page button
-    echo $paginator->last("Last");
-    ?>
 
-<?php
-} else {
-    echo "No users found.";
+
+
+
+<?php } else {
+    echo "No News found.";
 } ?>
