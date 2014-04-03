@@ -20,7 +20,6 @@
       <column name="fb" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
       <column name="twitter" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
-      <exported-key name="fk_news_authors" table="news" schema="" catalog="TheDead" columns="author_id"/>
     </table>
     <table name="comments" schema="" catalog="TheDead" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -36,7 +35,8 @@
       <column name="name" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
       <column name="description" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
       <column name="img" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="id"/>
+      <column name="type_id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id,type_id"/>
     </table>
     <table name="news" schema="" catalog="TheDead" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -46,7 +46,6 @@
       <column name="titulo" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
       <column name="author_id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="id"/>
-      <foreign-key name="fk_news_authors" columns="author_id" ref-table="authors" ref-schema="" ref-catalog="TheDead" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
     </table>
     <table name="types" schema="" catalog="TheDead" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -55,11 +54,13 @@
     </table>
     <table name="users" schema="" catalog="TheDead" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="username" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
-      <column name="password" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
-      <column name="role" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <column name="username" sqlType="VARCHAR" length="128" precision="0" nullable="true" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" length="128" precision="0" nullable="true" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" length="128" precision="0" nullable="true" jdbcType="12"/>
+      <column name="role" sqlType="VARCHAR" length="64" precision="0" nullable="true" jdbcType="12"/>
       <column name="created" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
       <column name="modified" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <column name="status" sqlType="TINYINT" length="3" precision="0" nullable="false" jdbcType="-6" def="MQ=="/>
       <primary-key name="PRIMARY" columns="id"/>
     </table>
     <table name="CHARACTER_SETS" schema="" catalog="information_schema" type="SYSTEM TABLE">

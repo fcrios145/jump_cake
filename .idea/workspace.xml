@@ -32,13 +32,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.ctp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="all.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/News/all.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="121" selection-end="121" vertical-scroll-proportion="0.15228426" vertical-offset="0" max-vertical-offset="1530">
+            <state line="31" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="-12.708333" vertical-offset="160" max-vertical-offset="1530">
               <folding>
                 <element signature="e#6#40#0" expanded="true" />
-                <element signature="e#1733#1768#0" expanded="true" />
+                <marker date="1396468682569" expanded="true" signature="502:869" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="569:858" placeholder="{...}" />
+                <marker date="1396468682569" expanded="true" signature="741:828" placeholder="{...}" />
+                <marker date="1396468682569" expanded="true" signature="922:3091" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="1143:2196" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="1204:1518" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="1249:1495" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="1559:2002" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="1597:1979" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="1644:1799" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="1847:1952" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="2072:2177" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="2300:2316" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="2347:2972" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="2420:2957" placeholder="..." />
+                <marker date="1396468682569" expanded="true" signature="3003:3019" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -47,21 +62,8 @@
       <file leaf-file-name="login.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Users/login.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="29" selection-start="3228" selection-end="3228" vertical-scroll-proportion="-4.625" vertical-offset="1014" max-vertical-offset="1605">
-              <folding>
-                <marker date="1396445900340" expanded="true" signature="899:3161" placeholder="..." />
-                <marker date="1396445900340" expanded="true" signature="947:2508" placeholder="..." />
-                <marker date="1396445900340" expanded="true" signature="978:994" placeholder="..." />
-                <marker date="1396445900340" expanded="true" signature="1033:1092" placeholder="..." />
-                <marker date="1396445900340" expanded="true" signature="1093:2497" placeholder="..." />
-                <marker date="1396445900340" expanded="true" signature="2193:2294" placeholder="..." />
-                <marker date="1396445900340" expanded="true" signature="2545:2616" placeholder="..." />
-                <marker date="1396445900340" expanded="true" signature="2617:3154" placeholder="..." />
-                <marker date="1396445900340" expanded="true" signature="2649:3143" placeholder="..." />
-                <marker date="1396445900340" expanded="true" signature="2674:2688" placeholder="..." />
-                <marker date="1396445900340" expanded="true" signature="2778:2791" placeholder="..." />
-                <marker date="1396445900340" expanded="true" signature="2794:3042" placeholder="..." />
-              </folding>
+            <state line="85" column="29" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1755">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,10 +71,38 @@
       <file leaf-file-name="default.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="6" selection-start="391" selection-end="391" vertical-scroll-proportion="-5.2941175" vertical-offset="0" max-vertical-offset="2325">
-              <folding>
-                <marker date="1396448405486" expanded="true" signature="3586:4018" placeholder="..." />
-              </folding>
+            <state line="64" column="41" selection-start="2646" selection-end="2646" vertical-scroll-proportion="-8.958333" vertical-offset="745" max-vertical-offset="2325">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Model/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="100" column="18" selection-start="3179" selection-end="3179" vertical-scroll-proportion="-23.916666" vertical-offset="731" max-vertical-offset="3150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheDead.users" pinned="false" current="true" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..users">
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Users/add.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="34" selection-start="1591" selection-end="1591" vertical-scroll-proportion="-16.708334" vertical-offset="109" max-vertical-offset="765">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,10 +110,8 @@
       <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="89" selection-start="995" selection-end="995" vertical-scroll-proportion="-4.352941" vertical-offset="303" max-vertical-offset="3930">
-              <folding>
-                <element signature="e#4487#4489#0" expanded="true" />
-              </folding>
+            <state line="35" column="89" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="3930">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,7 +155,6 @@
         <option value="$PROJECT_DIR$/app/Model/Comment.php" />
         <option value="$PROJECT_DIR$/app/View/News/index.ctp" />
         <option value="$PROJECT_DIR$/app/View/News/view.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Users/add.ctp" />
         <option value="$PROJECT_DIR$/app/Config/database.php" />
         <option value="$PROJECT_DIR$/app/Controller/AppController.php" />
         <option value="$PROJECT_DIR$/app/View/News/admin_add.ctp" />
@@ -136,9 +163,10 @@
         <option value="$PROJECT_DIR$/app/View/Users/login.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/UsersController.php" />
         <option value="$PROJECT_DIR$/app/Controller/NewsController.php" />
-        <option value="$PROJECT_DIR$/app/View/Layouts/default.ctp" />
         <option value="$PROJECT_DIR$/app/View/Elements/paginining_links.php" />
         <option value="$PROJECT_DIR$/app/View/News/all.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Layouts/default.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Users/add.ctp" />
       </list>
     </option>
   </component>
@@ -175,7 +203,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,11 +295,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="all&#10;News&#10;Users&#10;view&#10;default&#10;User&#10;login&#10;custom&#10;admin_add&#10;NewsCon&#10;database&#10;App&#10;index&#10;add&#10;link&#10;Usersc&#10;ima&#10;defaul&#10;Au&#10;Comment&#10;abou&#10;admin_&#10;video&#10;defa&#10;defau&#10;login.ctp&#10;cus&#10;about.ctp&#10;all.c&#10;Controller&#10;default.c&#10;controlle&#10;about&#10;webr&#10;home&#10;admin&#10;nav&#10;controller&#10;contr&#10;contro&#10;Controll&#10;NewsC" />
+    <property name="SearchEverywhereHistory" value="add&#10;User&#10;default&#10;all&#10;News&#10;Users&#10;view&#10;login&#10;custom&#10;admin_add&#10;NewsCon&#10;database&#10;App&#10;index&#10;link&#10;Usersc&#10;ima&#10;defaul&#10;Au&#10;Comment&#10;abou&#10;admin_&#10;video&#10;defa&#10;defau&#10;login.ctp&#10;cus&#10;about.ctp&#10;all.c&#10;Controller&#10;default.c&#10;controlle&#10;about&#10;webr&#10;home&#10;admin&#10;nav&#10;controller&#10;contr&#10;contro&#10;Controll&#10;NewsC" />
     <property name="options.lastSelected" value="editing.templates" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -365,14 +393,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="-4" width="1336" height="782" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38778627" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32683307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960998" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2324493" sideWeight="0.49924126" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23556942" sideWeight="0.49924126" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20392749" sideWeight="0.5007587" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -380,11 +408,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -402,9 +430,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23564954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -443,8 +471,8 @@
           <ID>DATABASE</ID>
           <OriginalElement>5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.schema:TheDead</OriginalElement>
           <nodes>
-            <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:TheDead.authors</node>
             <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:TheDead.news</node>
+            <node x="" y="">5a8ca4d0-bb48-48ec-87fd-f3a552bda45a.table:TheDead.authors</node>
           </nodes>
           <notes />
           <edges />
@@ -522,19 +550,19 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..authors">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
       </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..items">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..items">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Items/all.ctp">
@@ -549,8 +577,8 @@
           <OriginalElement>d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee.schema:TheDead</OriginalElement>
           <nodes>
             <node x="" y="">d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee.table:TheDead.news</node>
-            <node x="" y="">d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee.table:TheDead.authors</node>
             <node x="" y="">d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee.table:TheDead.items</node>
+            <node x="" y="">d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee.table:TheDead.authors</node>
           </nodes>
           <notes />
           <edges />
@@ -566,9 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Pages/play.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135">
-          <folding />
-        </state>
+        <state line="1" column="7" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -615,11 +641,11 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..comments">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Users/index.ctp">
@@ -634,9 +660,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Cake/Controller/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1088" column="20" selection-start="32737" selection-end="32737" vertical-scroll-proportion="0.34660032" vertical-offset="15916" max-vertical-offset="18540">
-          <folding />
-        </state>
+        <state line="1088" column="20" selection-start="32737" selection-end="32737" vertical-scroll-proportion="0.34660032" vertical-offset="15916" max-vertical-offset="18540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/News/index.ctp">
@@ -644,133 +668,65 @@
         <state line="102" column="115" selection-start="3845" selection-end="3940" vertical-scroll-proportion="-4.529412" vertical-offset="1299" max-vertical-offset="1875" />
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..users">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Users/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="30" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1365">
-          <folding />
-        </state>
+        <state line="65" column="30" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1365" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/AuthorsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="405">
-          <folding />
-        </state>
+        <state line="3" column="33" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="405" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/CommentsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="100" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="14" column="9" selection-start="100" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/PagesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="1303" selection-end="1303" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="37" column="29" selection-start="1303" selection-end="1303" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/News/admin_add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="34" selection-start="169" selection-end="169" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
+        <state line="11" column="34" selection-start="169" selection-end="169" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="525" />
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..news">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/css/custom-nav-bar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="536" column="41" selection-start="11801" selection-end="11801" vertical-scroll-proportion="0.73170733" vertical-offset="7590" max-vertical-offset="8280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="29" selection-start="4487" selection-end="4487" vertical-scroll-proportion="0.43674177" vertical-offset="2073" max-vertical-offset="3345">
-          <folding>
-            <element signature="e#6#8#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="536" column="41" selection-start="11801" selection-end="11801" vertical-scroll-proportion="0.73170733" vertical-offset="7590" max-vertical-offset="8280" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/News/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="55" selection-start="1610" selection-end="1649" vertical-scroll-proportion="0.33333334" vertical-offset="487" max-vertical-offset="1605">
-          <folding>
-            <element signature="e#638#691#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="48" column="55" selection-start="1610" selection-end="1649" vertical-scroll-proportion="0.33333334" vertical-offset="487" max-vertical-offset="1605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="89" selection-start="995" selection-end="995" vertical-scroll-proportion="-4.352941" vertical-offset="303" max-vertical-offset="3930">
-          <folding>
-            <element signature="e#4487#4489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="391" selection-end="391" vertical-scroll-proportion="-5.2941175" vertical-offset="0" max-vertical-offset="2325">
-          <folding>
-            <marker date="1396448405486" expanded="true" signature="3586:4018" placeholder="..." />
-          </folding>
+        <state line="35" column="89" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="3930">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Users/login.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="29" selection-start="3228" selection-end="3228" vertical-scroll-proportion="-4.625" vertical-offset="1014" max-vertical-offset="1605">
-          <folding>
-            <marker date="1396445900340" expanded="true" signature="899:3161" placeholder="..." />
-            <marker date="1396445900340" expanded="true" signature="947:2508" placeholder="..." />
-            <marker date="1396445900340" expanded="true" signature="978:994" placeholder="..." />
-            <marker date="1396445900340" expanded="true" signature="1033:1092" placeholder="..." />
-            <marker date="1396445900340" expanded="true" signature="1093:2497" placeholder="..." />
-            <marker date="1396445900340" expanded="true" signature="2193:2294" placeholder="..." />
-            <marker date="1396445900340" expanded="true" signature="2545:2616" placeholder="..." />
-            <marker date="1396445900340" expanded="true" signature="2617:3154" placeholder="..." />
-            <marker date="1396445900340" expanded="true" signature="2649:3143" placeholder="..." />
-            <marker date="1396445900340" expanded="true" signature="2674:2688" placeholder="..." />
-            <marker date="1396445900340" expanded="true" signature="2778:2791" placeholder="..." />
-            <marker date="1396445900340" expanded="true" signature="2794:3042" placeholder="..." />
-          </folding>
+        <state line="85" column="29" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1755">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -783,12 +739,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/News/all.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="121" selection-end="121" vertical-scroll-proportion="0.15228426" vertical-offset="0" max-vertical-offset="1530">
+        <state line="31" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="-12.708333" vertical-offset="160" max-vertical-offset="1530">
           <folding>
             <element signature="e#6#40#0" expanded="true" />
-            <element signature="e#1733#1768#0" expanded="true" />
+            <marker date="1396468682569" expanded="true" signature="502:869" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="569:858" placeholder="{...}" />
+            <marker date="1396468682569" expanded="true" signature="741:828" placeholder="{...}" />
+            <marker date="1396468682569" expanded="true" signature="922:3091" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="1143:2196" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="1204:1518" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="1249:1495" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="1559:2002" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="1597:1979" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="1644:1799" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="1847:1952" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="2072:2177" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="2300:2316" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="2347:2972" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="2420:2957" placeholder="..." />
+            <marker date="1396468682569" expanded="true" signature="3003:3019" placeholder="..." />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="41" selection-start="2646" selection-end="2646" vertical-scroll-proportion="-8.958333" vertical-offset="745" max-vertical-offset="2325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="18" selection-start="3179" selection-end="3179" vertical-scroll-proportion="-23.916666" vertical-offset="731" max-vertical-offset="3150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Users/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="34" selection-start="1591" selection-end="1591" vertical-scroll-proportion="-16.708334" vertical-offset="109" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..users">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>

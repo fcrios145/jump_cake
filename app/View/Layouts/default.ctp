@@ -62,7 +62,7 @@
                                     )
                                 ); ?></li>
                             <li><?php echo $this->Html->link(
-                                    'Libreria',
+                                    'Wiki',
                                     array(
                                         'controller' => 'items',
                                         'action' => 'all',
