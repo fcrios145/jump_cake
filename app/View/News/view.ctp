@@ -67,13 +67,13 @@
                     <?php
                     echo $this->Form->input('text', array('rows' => '7'));
                     echo $this->Form->end($options);
-                }
-                ?>
+                } else { ?>
+                    <p>Favor de Loguearse</p>
+                <?php } ?>
             </div>
 
     </div>
     <hr/>
-
 
 
 
