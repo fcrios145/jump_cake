@@ -30,7 +30,7 @@
 
 <!--  Listado de noticias  -->
 
-<div id="paginado">
+<div style="margin-top: 150px" id="paginado">
     <?php $paginator = $this->Paginator; ?>
 
     <?php if ($datas) { ?>

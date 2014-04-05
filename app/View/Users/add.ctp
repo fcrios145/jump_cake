@@ -17,7 +17,7 @@
 <!--    --><?php //echo $this->Form->end(__('Submit')); ?>
 <!--</div>-->
 <div class="col-md-4"></div>
-<div class="col-md-4" style="color: #ffffff; background-color: rgba(0, 0, 0, 0.51); margin-bottom: 20px;">
+<div class="col-md-4" style="color: #ffffff; background-color: rgba(0, 0, 0, 0.51); margin-bottom: 20px; margin-top: 150px">
     <!--            <form accept-charset="utf-8" method="post" class="form-signin" role="form" action="/users/login">-->
     <?php echo $this->Session->flash('auth'); ?>
     <?php

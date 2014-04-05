@@ -4,7 +4,7 @@
 
 <div class="container">
     <!--    Formulario-->
-    <div class="row">
+    <div style="margin-top: 150px;"  class="row">
         <div class="col-md-4">
 
         </div>
