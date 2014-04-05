@@ -74,6 +74,43 @@ class NewsController extends AppController
 
     }
 
+    public function admin_edit($id = null) {
+        if (!$id) {
+            throw new NotFoundException(__('Invalid'));
+        }
+
+        $noticia = $this->News->findById($id);
+        if (!$noticia) {
+            throw new NotFoundException(__('Invalid'));
+        }
+
+        if ($this->request->is(array('post', 'put'))) {
+            $this->News->id = $id;
+            if ($this->News->save($this->request->data)) {
+                $this->Session->setFlash(__('Your data has been updated.'));
+                return $this->redirect(array('action' => 'index'));
+            }
+            $this->Session->setFlash(__('Unable to update your data.'));
+        }
+
+        if (!$this->request->data) {
+            $this->request->data = $noticia;
+        }
+    }
+
+    public function admin_delete($id) {
+        if ($this->request->is('get')) {
+            throw new MethodNotAllowedException();
+        }
+
+        if ($this->News->delete($id)) {
+            $this->Session->setFlash(
+                __('La noticia con el id: %s ha sido borrada :/.', h($id))
+            );
+            return $this->redirect(array('action' => 'index'));
+        }
+    }
+
     //Listar noticias de X en X
     public function all()
     {

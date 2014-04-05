@@ -11,7 +11,9 @@
 
     echo $this->Html->css('bootstrap.min');
     echo $this->Html->css('custom-nav-bar');
+    echo $this->Html->css('messi.min');
     echo $this->Html->script('jquery');
+    echo $this->Html->script('messi.min');
 
 
     echo $this->fetch('meta');
