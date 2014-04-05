@@ -1,4 +1,4 @@
-<h1>Noticias</h1>
+<h1>Autores</h1>
 <p><?php echo $this->Html->link('Agregar Autor', array('action' => 'add')); ?></p>
 <table class="table table-hover">
     <thead>

@@ -69,8 +69,7 @@ class NewsController extends AppController
             }
             $this->Session->setFlash(__('No fue posible guardar tu noticia :('));
         }
-        $this->set('authors', $this->Author->find('list', array('fields' => array('id', 'nick'))
-        ));
+        $this->set('authors', $this->Author->find('list', array('fields' => array('id', 'nick'))));
 
     }
 
@@ -96,6 +95,7 @@ class NewsController extends AppController
         if (!$this->request->data) {
             $this->request->data = $noticia;
         }
+        $this->set('authors', $this->Author->find('list', array('fields' => array('id', 'nick'))));
     }
 
     public function admin_delete($id) {

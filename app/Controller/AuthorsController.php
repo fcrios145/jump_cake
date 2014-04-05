@@ -9,13 +9,62 @@ class AuthorsController extends AppController {
     }
 
     public function admin_add() {
-        if ($this->request->is('author')) {
+        if ($this->request->is('post')) {
             $this->Author->create();
             if ($this->Author->save($this->request->data)) {
                 $this->Session->setFlash(__('Author guardado.'));
                 return $this->redirect(array('action' => 'index'));
             }
             $this->Session->setFlash(__('Unable to save.'));
+        }
+    }
+
+    public function admin_view($id)
+    {
+        if (!$id) {
+            throw new NotFoundException(__('Not found'));
+        }
+        $author = $this->Author->findById($id);
+        if (!$author) {
+            throw new NotFoundException(__('Not found'));
+        }
+        $this->set('news', $author);
+    }
+
+    public function admin_edit($id = null) {
+        if (!$id) {
+            throw new NotFoundException(__('Invalid'));
+        }
+
+        $author = $this->Author->findById($id);
+        if (!$author) {
+            throw new NotFoundException(__('Invalid'));
+        }
+
+        if ($this->request->is(array('post', 'put'))) {
+            $this->Author->id = $id;
+            if ($this->Author->save($this->request->data)) {
+                $this->Session->setFlash(__('Your data has been updated.'));
+                return $this->redirect(array('action' => 'index'));
+            }
+            $this->Session->setFlash(__('Unable to update your data.'));
+        }
+
+        if (!$this->request->data) {
+            $this->request->data = $author;
+        }
+    }
+
+    public function admin_delete($id) {
+        if ($this->request->is('get')) {
+            throw new MethodNotAllowedException();
+        }
+
+        if ($this->Author->delete($id)) {
+            $this->Session->setFlash(
+                __('El autor con el id: %s ha sido borrado :/.', h($id))
+            );
+            return $this->redirect(array('action' => 'index'));
         }
     }
 }
