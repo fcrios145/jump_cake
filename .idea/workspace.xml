@@ -50,10 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemsController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ItemsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/ItemsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="2" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.9501661" vertical-offset="463" max-vertical-offset="1125">
+            <state line="25" column="5" selection-start="664" selection-end="664" vertical-scroll-proportion="-0.625" vertical-offset="360" max-vertical-offset="1125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Controller/NewsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="145" column="19" selection-start="4182" selection-end="4182" vertical-scroll-proportion="0.94827586" vertical-offset="1625" max-vertical-offset="2685">
               <folding />
             </state>
           </provider>
@@ -130,7 +139,6 @@
         <option value="$PROJECT_DIR$/app/Model/User.php" />
         <option value="$PROJECT_DIR$/app/Model/Comment.php" />
         <option value="$PROJECT_DIR$/app/View/Authors/admin_index.ctp" />
-        <option value="$PROJECT_DIR$/app/Controller/NewsController.php" />
         <option value="$PROJECT_DIR$/app/View/Authors/admin_edit.ctp" />
         <option value="$PROJECT_DIR$/app/webroot/css/custom-nav-bar.css" />
         <option value="$PROJECT_DIR$/app/View/News/index.ctp" />
@@ -144,6 +152,7 @@
         <option value="$PROJECT_DIR$/app/Config/database.php" />
         <option value="$PROJECT_DIR$/app/Controller/AuthorsController.php" />
         <option value="$PROJECT_DIR$/app/Controller/ItemsController.php" />
+        <option value="$PROJECT_DIR$/app/Controller/NewsController.php" />
       </list>
     </option>
   </component>
@@ -441,11 +450,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37099236" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37059724" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31513262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960998" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23478939" sideWeight="0.49924126" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23478939" sideWeight="0.49924126" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20392749" sideWeight="0.5007587" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -704,11 +713,6 @@
         <state line="17" column="36" selection-start="471" selection-end="471" vertical-scroll-proportion="0.408" vertical-offset="0" max-vertical-offset="625" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/NewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="84" selection-start="4642" selection-end="4642" vertical-scroll-proportion="-11.666667" vertical-offset="1985" max-vertical-offset="2610" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Authors/admin_edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="14" selection-start="293" selection-end="293" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="510" />
@@ -814,7 +818,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/ItemsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="2" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.9501661" vertical-offset="463" max-vertical-offset="1125">
+        <state line="25" column="5" selection-start="664" selection-end="664" vertical-scroll-proportion="-0.625" vertical-offset="360" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="19" selection-start="4182" selection-end="4182" vertical-scroll-proportion="0.94827586" vertical-offset="1625" max-vertical-offset="2685">
           <folding />
         </state>
       </provider>
