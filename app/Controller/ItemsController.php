@@ -35,6 +35,30 @@ Class ItemsController extends AppController {
         }
     }
 
+    public function admin_edit($id = null) {
+        if (!$id) {
+            throw new NotFoundException(__('Invalid'));
+        }
+
+        $item = $this->Items->findById($id);
+        if (!$item) {
+            throw new NotFoundException(__('Invalid'));
+        }
+
+        if ($this->request->is(array('post', 'put'))) {
+            $this->Items->id = $id;
+            if ($this->Items->save($this->request->data)) {
+                $this->Session->setFlash(__('Your data has been updated.'));
+                return $this->redirect(array('action' => 'index'));
+            }
+            $this->Session->setFlash(__('Unable to update your data.'));
+        }
+
+        if (!$this->request->data) {
+            $this->request->data = $item;
+        }
+    }
+
 
 
 
