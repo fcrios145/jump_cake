@@ -7,12 +7,12 @@
     <title>
         <?php echo $title_for_layout; ?>
     </title>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <?php
 
     echo $this->Html->css('bootstrap.min');
     echo $this->Html->css('custom-nav-bar');
     echo $this->Html->css('messi.min');
-    echo $this->Html->script('jquery');
     echo $this->Html->script('messi.min');
 
 
@@ -20,7 +20,6 @@
     echo $this->fetch('css');
     echo $this->fetch('script');
     ?>
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <title>Title</title>
     <meta charset="UTF-8">
     <meta name=description content="">
