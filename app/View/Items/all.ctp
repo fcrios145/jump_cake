@@ -18,7 +18,9 @@
 <script type="text/javascript">
     <?php foreach ($items as $item) { ?>
     $("#item_<?php echo $item['Items']['id']; ?>").on('click', function () {
-        new Messi("<?php echo $item['Items']['description']; ?>", {title: "<?php echo $item['Items']['name']; ?>", modal: true});
+        new Messi("<?php echo $item['Items']['description']; ?>"
+            , {title: "<?php echo $item['Items']['name']; ?>"
+            , modal: true});
     });
     <?php }?>
 </script>

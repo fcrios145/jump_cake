@@ -23,19 +23,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.ctp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="94" selection-start="244" selection-end="244" vertical-scroll-proportion="0.22920203" vertical-offset="0" max-vertical-offset="2550">
+            <state line="9" column="94" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2550">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemsController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="all.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Items/all.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="12" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="16" selection-start="2729" selection-end="2729" vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1365">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemsController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Controller/ItemsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="12" selection-start="1738" selection-end="1738" vertical-scroll-proportion="-22.666666" vertical-offset="311" max-vertical-offset="1065">
+            <state line="69" column="2" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.9501661" vertical-offset="463" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -44,7 +62,7 @@
       <file leaf-file-name="admin_edit.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Items/admin_edit.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="525">
+            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -53,7 +71,16 @@
       <file leaf-file-name="AuthorsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/AuthorsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="5" selection-start="975" selection-end="1735" vertical-scroll-proportion="-15.416667" vertical-offset="455" max-vertical-offset="1140">
+            <state line="53" column="0" selection-start="1599" selection-end="1599" vertical-scroll-proportion="-8.541667" vertical-offset="590" max-vertical-offset="1230">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_index.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Authors/admin_index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -89,7 +116,6 @@
         <option value="$PROJECT_DIR$/app/View/Pages/video.ctp" />
         <option value="$PROJECT_DIR$/app/Model/News.php" />
         <option value="$PROJECT_DIR$/app/Controller/CommentsController.php" />
-        <option value="$PROJECT_DIR$/app/Config/database.php" />
         <option value="$PROJECT_DIR$/app/Controller/AppController.php" />
         <option value="$PROJECT_DIR$/app/View/News/admin_add.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/UsersController.php" />
@@ -103,7 +129,6 @@
         <option value="$PROJECT_DIR$/app/Model/Author.php" />
         <option value="$PROJECT_DIR$/app/Model/User.php" />
         <option value="$PROJECT_DIR$/app/Model/Comment.php" />
-        <option value="$PROJECT_DIR$/app/Controller/AuthorsController.php" />
         <option value="$PROJECT_DIR$/app/View/Authors/admin_index.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/NewsController.php" />
         <option value="$PROJECT_DIR$/app/View/Authors/admin_edit.ctp" />
@@ -111,12 +136,14 @@
         <option value="$PROJECT_DIR$/app/View/News/index.ctp" />
         <option value="$PROJECT_DIR$/app/View/News/all.ctp" />
         <option value="$PROJECT_DIR$/app/View/News/view.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Items/all.ctp" />
         <option value="$PROJECT_DIR$/app/View/Pages/about.ctp" />
         <option value="$PROJECT_DIR$/app/View/Users/login.ctp" />
         <option value="$PROJECT_DIR$/app/View/Users/add.ctp" />
-        <option value="$PROJECT_DIR$/app/Controller/ItemsController.php" />
         <option value="$PROJECT_DIR$/app/View/Layouts/default.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Items/all.ctp" />
+        <option value="$PROJECT_DIR$/app/Config/database.php" />
+        <option value="$PROJECT_DIR$/app/Controller/AuthorsController.php" />
+        <option value="$PROJECT_DIR$/app/Controller/ItemsController.php" />
       </list>
     </option>
   </component>
@@ -181,6 +208,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,18 +277,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Layouts" />
+              <option name="myItemId" value="Items" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump_cake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Authors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump_cake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump_cake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="Author&#10;Items&#10;defa&#10;add&#10;login&#10;about&#10;all&#10;view&#10;all.ctp&#10;index&#10;custom&#10;default&#10;admin&#10;admin_index&#10;NewsC&#10;Comment&#10;Au&#10;users&#10;defau&#10;vie&#10;User&#10;News&#10;Users&#10;admin_add&#10;NewsCon&#10;database&#10;App&#10;link&#10;Usersc&#10;ima&#10;defaul&#10;abou&#10;admin_&#10;video&#10;login.ctp&#10;cus&#10;about.ctp&#10;all.c&#10;Controller&#10;default.c&#10;controlle&#10;webr&#10;home&#10;nav&#10;controller&#10;contr&#10;contro&#10;Controll" />
+    <property name="SearchEverywhereHistory" value="admin_ind&#10;all&#10;data&#10;Author&#10;Items&#10;defa&#10;add&#10;login&#10;about&#10;view&#10;all.ctp&#10;index&#10;custom&#10;default&#10;admin&#10;admin_index&#10;NewsC&#10;Comment&#10;Au&#10;users&#10;defau&#10;vie&#10;User&#10;News&#10;Users&#10;admin_add&#10;NewsCon&#10;database&#10;App&#10;link&#10;Usersc&#10;ima&#10;defaul&#10;abou&#10;admin_&#10;video&#10;login.ctp&#10;cus&#10;about.ctp&#10;all.c&#10;Controller&#10;default.c&#10;controlle&#10;webr&#10;home&#10;nav&#10;controller&#10;contr&#10;contro&#10;Controll" />
     <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -356,7 +441,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37251908" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37099236" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31513262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960998" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -368,11 +453,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -390,9 +475,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23564954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -438,11 +523,11 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..authors">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
       </provider>
     </entry>
     <entry file="uml://DATABASE/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee.schema:TheDead">
@@ -452,8 +537,8 @@
           <OriginalElement>d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee.schema:TheDead</OriginalElement>
           <nodes>
             <node x="" y="">d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee.table:TheDead.news</node>
-            <node x="" y="">d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee.table:TheDead.authors</node>
             <node x="" y="">d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee.table:TheDead.items</node>
+            <node x="" y="">d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee.table:TheDead.authors</node>
           </nodes>
           <notes />
           <edges />
@@ -493,11 +578,11 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..comments">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Users/index.ctp">
@@ -513,11 +598,6 @@
     <entry file="file://$PROJECT_DIR$/lib/Cake/Controller/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1088" column="20" selection-start="32737" selection-end="32737" vertical-scroll-proportion="0.34660032" vertical-offset="15916" max-vertical-offset="18540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="30" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1365" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/CommentsController.php">
@@ -541,27 +621,19 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..users">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..items">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195" />
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..news">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/css/messi.min.css">
@@ -637,11 +709,6 @@
         <state line="151" column="84" selection-start="4642" selection-end="4642" vertical-scroll-proportion="-11.666667" vertical-offset="1985" max-vertical-offset="2610" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Authors/admin_index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="12" selection-start="389" selection-end="389" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="975" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Authors/admin_edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="14" selection-start="293" selection-end="293" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="510" />
@@ -649,101 +716,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/News/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1875">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1875" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/News/all.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="909" selection-end="934" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1530">
-          <folding />
-        </state>
+        <state line="32" column="5" selection-start="909" selection-end="934" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/News/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1335">
-          <folding />
-        </state>
+        <state line="17" column="10" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/css/custom-nav-bar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="523" column="34" selection-start="11508" selection-end="11508" vertical-scroll-proportion="0.24390244" vertical-offset="7695" max-vertical-offset="8310">
-          <folding />
-        </state>
+        <state line="523" column="34" selection-start="11508" selection-end="11508" vertical-scroll-proportion="0.24390244" vertical-offset="7695" max-vertical-offset="8310" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Authors/admin_add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="25" selection-start="0" selection-end="486" vertical-scroll-proportion="0.54635763" vertical-offset="0" max-vertical-offset="604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Items/all.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="42" selection-start="196" selection-end="196" vertical-scroll-proportion="0.07450331" vertical-offset="0" max-vertical-offset="604">
-          <folding />
-        </state>
+        <state line="22" column="25" selection-start="0" selection-end="486" vertical-scroll-proportion="0.54635763" vertical-offset="0" max-vertical-offset="604" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Pages/about.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="36" selection-start="119" selection-end="119" vertical-scroll-proportion="0.02538071" vertical-offset="0" max-vertical-offset="591">
-          <folding />
-        </state>
+        <state line="1" column="36" selection-start="119" selection-end="119" vertical-scroll-proportion="0.02538071" vertical-offset="0" max-vertical-offset="591" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Users/login.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="900">
-          <folding />
-        </state>
+        <state line="6" column="37" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Users/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="122" selection-start="799" selection-end="799" vertical-scroll-proportion="0.031456955" vertical-offset="266" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/AuthorsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="5" selection-start="975" selection-end="1735" vertical-scroll-proportion="-15.416667" vertical-offset="455" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/ItemsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="12" selection-start="1738" selection-end="1738" vertical-scroll-proportion="-22.666666" vertical-offset="311" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/c6beb6c3/bfc5a3cc-8ba0-4d1d-a244-8a7dd4451d0c/thedead_app..items">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
+        <state line="19" column="122" selection-start="799" selection-end="799" vertical-scroll-proportion="0.031456955" vertical-offset="266" max-vertical-offset="870" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Items/admin_edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="525">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="94" selection-start="244" selection-end="244" vertical-scroll-proportion="0.22920203" vertical-offset="0" max-vertical-offset="2550">
+        <state line="9" column="94" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="16" selection-start="2729" selection-end="2729" vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c6beb6c3/d2a587bf-35b3-4d4e-97c6-4b4a5e3635ee/TheDead..items">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Items/all.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="12" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c6beb6c3/bfc5a3cc-8ba0-4d1d-a244-8a7dd4451d0c/thedead_app..items">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Authors/admin_index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/AuthorsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1599" selection-end="1599" vertical-scroll-proportion="-8.541667" vertical-offset="590" max-vertical-offset="1230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/ItemsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="2" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.9501661" vertical-offset="463" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
