@@ -27,7 +27,7 @@ Class ItemsController extends AppController
     public function admin_view($id)
     {
         $this->_isAuthorized('admin');
-        $this->layout = false;
+        $this->layout = 'cake';
         if (!$id) {
             throw new NotFoundException(__('Item encontrado'));
         }
@@ -41,7 +41,7 @@ Class ItemsController extends AppController
     public function admin_add()
     {
         $this->_isAuthorized('admin');
-        $this->layout = false;
+        $this->layout = 'cake';
         if ($this->request->is('post')) {
             $this->Items->create();
             if ($this->Items->save($this->request->data)) {
@@ -55,7 +55,7 @@ Class ItemsController extends AppController
     public function admin_edit($id = null)
     {
         $this->_isAuthorized('admin');
-        $this->layout = false;
+        $this->layout = 'cake';
         if (!$id) {
             throw new NotFoundException(__('Invalid'));
         }

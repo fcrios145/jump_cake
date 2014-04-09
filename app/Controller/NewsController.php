@@ -53,14 +53,14 @@ class NewsController extends AppController
     public function admin_index()
     {
         $this->_isAuthorized('admin');
-        $this->layout = false;
+        $this->layout = 'cake';
         $this->set('news', $this->News->find('all'));
     }
 
     public function admin_view($id)
     {
         $this->_isAuthorized('admin');
-        $this->layout = false;
+        $this->layout = 'cake';
         if (!$id) {
             throw new NotFoundException(__('Noticia no encontrada'));
         }
@@ -74,7 +74,7 @@ class NewsController extends AppController
     public function admin_add()
     {
         $this->_isAuthorized('admin');
-        $this->layout = false;
+        $this->layout = 'cake';
         if ($this->request->is('post')) {
             $this->News->create();
             if ($this->News->save($this->request->data)) {
@@ -89,7 +89,7 @@ class NewsController extends AppController
 
     public function admin_edit($id = null) {
         $this->_isAuthorized('admin');
-        $this->layout = false;
+        $this->layout = 'cake';
         if (!$id) {
             throw new NotFoundException(__('Invalid'));
         }
