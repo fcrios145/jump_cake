@@ -64,7 +64,7 @@
       <file leaf-file-name="email.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Config/email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="25" selection-start="273" selection-end="273" vertical-scroll-proportion="0.41551247" vertical-offset="0" max-vertical-offset="435">
+            <state line="16" column="39" selection-start="467" selection-end="467" vertical-scroll-proportion="0.66481996" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -815,7 +815,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Config/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="273" selection-end="273" vertical-scroll-proportion="0.41551247" vertical-offset="0" max-vertical-offset="435">
+        <state line="16" column="39" selection-start="467" selection-end="467" vertical-scroll-proportion="0.66481996" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
