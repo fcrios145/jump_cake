@@ -3,11 +3,12 @@
 class EmailConfig {
 
         public $gmail = array(
-            'host' => 'ssl://smtp.gmail.com',
+            'host' => 'smtp.gmail.com',
             'port' => 465,
             'username' => 'fcrios145@gmail.com',
             'password' => '40718076',
-            'transport' => 'Smtp'
+            'transport' => 'Smtp',
+            'tls' => true
         );
 
         public $thedead = array(
