@@ -17,9 +17,9 @@ Class ContactsController extends AppController
                 /*Email*/
 
                 App::uses('CakeEmail', 'Network/Email');
-                $email = new CakeEmail('gmail');
-//                $email->from('thedead@alwaysdata.net');
-                $email->from('fcrios145@gmail.com');
+                $email = new CakeEmail('thedead');
+                $email->from('thedead@alwaysdata.net');
+//                $email->from('fcrios145@gmail.com');
                 $email->to($this->request->data['Contact']['email']);
                 $email->subject('The Dead Ate My Friends | Contacto');
                 $email->send("Gracias por ponerse en contacto con nosotros"."\n\n".$this->request->data['Contact']['name']."\n".$this->request->data['Contact']['comment']);
