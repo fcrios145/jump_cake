@@ -32,9 +32,19 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
     public $components = array('Auth');
-    public function beforeFilter() {
-        parent::beforeFilter();
-        // Allow users to register and logout.
-        $this->Auth->allow();
+
+//    public function beforeFilter() {
+//        parent::beforeFilter();
+//        // Allow users to register and logout.
+//        $this->Auth->allow();
+//    }
+    function beforeFilter() {
+        if ($this->params['Admin']) {
+            if($this->Session->check('Auth.User')){
+                $this->setflash("The URL you\'ve followed requires you login.",'/login',2);
+            }
+            $this->layout = 'admin';
+        }
     }
+
 }

@@ -5,11 +5,13 @@ class AuthorsController extends AppController {
     public $components = array('Session');
 
     public function admin_index() {
+        $this->_isAuthorized('admin');
         $this->layout = false;
         $this->set('authors', $this->Author->find('all'));
     }
 
     public function admin_add() {
+        $this->_isAuthorized('admin');
         $this->layout = false;
         if ($this->request->is('post')) {
             $this->Author->create();
@@ -23,6 +25,7 @@ class AuthorsController extends AppController {
 
     public function admin_view($id)
     {
+        $this->_isAuthorized('admin');
         $this->layout = false;
 
 
@@ -37,6 +40,7 @@ class AuthorsController extends AppController {
     }
 
     public function admin_edit($id = null) {
+        $this->_isAuthorized('admin');
         $this->layout = false;
         if (!$id) {
             throw new NotFoundException(__('Invalid'));
@@ -62,6 +66,7 @@ class AuthorsController extends AppController {
     }
 
     public function admin_delete($id) {
+        $this->_isAuthorized('admin');
         if ($this->request->is('get')) {
             throw new MethodNotAllowedException();
         }
@@ -73,5 +78,13 @@ class AuthorsController extends AppController {
             return $this->redirect(array('action' => 'index'));
         }
     }
+
+    protected function _isAuthorized($role_required) {
+        if ($this->Auth->user('role') != $role_required) {
+            $this->Session->setFlash("your message here...");
+            return $this->redirect($this->referer());
+        }
+    }
+
 }
 ?>

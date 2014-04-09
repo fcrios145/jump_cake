@@ -1,19 +1,32 @@
 <?php
-Class ItemsController extends AppController {
+
+Class ItemsController extends AppController
+{
     public $uses = array('Items');
 
-    public function all() {
+    public function beforeFilter()
+    {
+        parent::beforeFilter();
+        // Allow users to register and logout.
+        $this->Auth->allow('all');
+    }
+
+
+    public function all()
+    {
         $this->set('items', $this->Items->find('all'));
     }
 
     public function admin_index()
     {
+        $this->_isAuthorized('admin');
         $this->layout = false;
         $this->set('items', $this->Items->find('all'));
     }
 
     public function admin_view($id)
     {
+        $this->_isAuthorized('admin');
         $this->layout = false;
         if (!$id) {
             throw new NotFoundException(__('Item encontrado'));
@@ -27,6 +40,7 @@ Class ItemsController extends AppController {
 
     public function admin_add()
     {
+        $this->_isAuthorized('admin');
         $this->layout = false;
         if ($this->request->is('post')) {
             $this->Items->create();
@@ -38,7 +52,9 @@ Class ItemsController extends AppController {
         }
     }
 
-    public function admin_edit($id = null) {
+    public function admin_edit($id = null)
+    {
+        $this->_isAuthorized('admin');
         $this->layout = false;
         if (!$id) {
             throw new NotFoundException(__('Invalid'));
@@ -63,8 +79,15 @@ Class ItemsController extends AppController {
         }
     }
 
-
+    protected function _isAuthorized($role_required)
+    {
+        if ($this->Auth->user('role') != $role_required) {
+            $this->Session->setFlash("your message here...");
+            return $this->redirect($this->referer());
+        }
+    }
 
 
 }
+
 ?>

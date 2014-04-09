@@ -5,6 +5,14 @@ Class ContactsController extends AppController
 
     var $components = array('Session');
 
+    public function beforeFilter()
+    {
+        parent::beforeFilter();
+        // Allow users to register and logout.
+        $this->Auth->allow('add');
+    }
+
+
     public function add()
     {
         if ($this->request->is('post')) {

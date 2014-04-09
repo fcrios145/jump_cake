@@ -1,5 +1,6 @@
-<?php
 
+<?php
+//app/Config/email.php
 class EmailConfig {
 
         public $gmail = array(
