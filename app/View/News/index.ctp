@@ -69,7 +69,8 @@
         <h1>Que esperas!</h1>
         <p>Adentrate en el mundo donde los muertos ya no son lo que eran antes, vive las mejores aventuras con tus mejores amigos y comparte tus avances en las redes sociales</p>
         <p>
-            <a class="btn btn-primary btn-lg">Jugar</a>
+            <a href="http://moreno.hol.es/DEAD.html" class="btn-default btn ">Jugar</a>
+
         </p>
     </div>
 </div>

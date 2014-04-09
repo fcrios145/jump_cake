@@ -30,6 +30,15 @@
       <column name="user_id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="id"/>
     </table>
+    <table name="contacts" schema="" catalog="TheDead" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="created" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <column name="modified" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <column name="name" sqlType="VARCHAR" length="128" precision="0" nullable="true" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" length="128" precision="0" nullable="true" jdbcType="12"/>
+      <column name="comment" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
     <table name="items" schema="" catalog="TheDead" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="name" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>

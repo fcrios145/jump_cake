@@ -26,6 +26,16 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+
+            $('#flashMessage').animate({opacity: 1.0}, 5000).fadeOut();
+
+
+        });
+
+    </script>
 </head>
 <body>
 
@@ -109,6 +119,18 @@
                             }
                             ?>
                         </li>
+                        <li>
+                            <?php
+                            echo $this->Html->link(
+                                'Contacto',
+                                array(
+                                    'controller' => 'contacts',
+                                    'action' => 'add',
+                                    'full_base' => true
+                                )
+                            );
+                            ?>
+                        </li>
 
                     </ul>
                 </div>
@@ -116,9 +138,12 @@
             </div>
             <!-- /.container -->
         </nav>
-
+        <div style="margin-top: 100px">
+            <?php echo $this->Session->flash(); ?>
+        </div>
         <?php echo $this->fetch('content'); ?>
-        <?php echo $this->Session->flash(); ?>
+        <?php echo $this->Js->writeBuffer(); // write cached scripts  ?>
+
     </div>
     <footer>
         <div class="row">
