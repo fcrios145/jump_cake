@@ -1,5 +1,7 @@
 <?php
 
+App::uses('CakeEmail', 'Network/Email');
+
 Class Contact extends AppModel {
 
     public $validate = array(
