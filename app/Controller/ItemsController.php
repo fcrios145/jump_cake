@@ -3,6 +3,8 @@
 Class ItemsController extends AppController
 {
     public $uses = array('Items');
+    var $components = array('Session');
+
 
     public function beforeFilter()
     {

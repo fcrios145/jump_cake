@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0164c06-55d1-41a1-aad7-b01e8b055d77" name="Default" comment="Commit con phpstorm">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/ItemsController.php" afterPath="$PROJECT_DIR$/app/Controller/ItemsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cakephp-cakephp-12992fb.iws" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="admin_index.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Contacts/admin_index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="278" selection-end="278" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="840">
+            <state line="9" column="22" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="admin_view.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Contacts/admin_view.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="45" selection-start="270" selection-end="270" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="8" column="45" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -47,16 +47,25 @@
       <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/News/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="14" selection-start="4337" selection-end="4337" vertical-scroll-proportion="-70.0" vertical-offset="0" max-vertical-offset="1890">
+            <state line="112" column="14" selection-start="4337" selection-end="4337" vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="1890">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="56" selection-start="750" selection-end="750" vertical-scroll-proportion="0.77242523" vertical-offset="0" max-vertical-offset="3990">
+            <state line="19" column="29" selection-start="436" selection-end="436" vertical-scroll-proportion="-0.0" vertical-offset="285" max-vertical-offset="3990">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemsController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Controller/ItemsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.6705298" vertical-offset="0" max-vertical-offset="1500">
               <folding />
             </state>
           </provider>
@@ -65,7 +74,7 @@
       <file leaf-file-name="ContactsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/ContactsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="28" selection-start="2038" selection-end="2038" vertical-scroll-proportion="-21.75" vertical-offset="408" max-vertical-offset="1185">
+            <state line="62" column="28" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
@@ -129,12 +138,12 @@
         <option value="$PROJECT_DIR$/app/View/Users/admin_index.ctp" />
         <option value="$PROJECT_DIR$/app/Model/User.php" />
         <option value="$PROJECT_DIR$/app/View/Users/admin_add.ctp" />
-        <option value="$PROJECT_DIR$/app/Controller/ItemsController.php" />
         <option value="$PROJECT_DIR$/app/View/Users/admin_edit.ctp" />
         <option value="$PROJECT_DIR$/app/View/Contacts/admin_index.ctp" />
         <option value="$PROJECT_DIR$/app/View/Contacts/admin_view.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/ContactsController.php" />
         <option value="$PROJECT_DIR$/app/Controller/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/Controller/ItemsController.php" />
       </list>
     </option>
   </component>
@@ -296,7 +305,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="Items&#10;data&#10;login&#10;cake&#10;Comment&#10;admin&#10;UsersController&#10;Users&#10;News&#10;view&#10;lo&#10;Ite&#10;use&#10;defa&#10;admin_add&#10;add&#10;database&#10;index&#10;admin_ind&#10;all&#10;Author&#10;about&#10;all.ctp&#10;custom&#10;default&#10;admin_index&#10;NewsC&#10;Au&#10;users&#10;defau&#10;vie&#10;User&#10;NewsCon&#10;App&#10;link&#10;Usersc&#10;ima&#10;defaul&#10;abou&#10;admin_&#10;video&#10;login.ctp&#10;cus&#10;about.ctp&#10;all.c&#10;Controller&#10;default.c&#10;controlle&#10;webr" />
+    <property name="SearchEverywhereHistory" value="ItemsControl&#10;Items&#10;data&#10;login&#10;cake&#10;Comment&#10;admin&#10;UsersController&#10;Users&#10;News&#10;view&#10;lo&#10;Ite&#10;use&#10;defa&#10;admin_add&#10;add&#10;database&#10;index&#10;admin_ind&#10;all&#10;Author&#10;about&#10;all.ctp&#10;custom&#10;default&#10;admin_index&#10;NewsC&#10;Au&#10;users&#10;defau&#10;vie&#10;User&#10;NewsCon&#10;App&#10;link&#10;Usersc&#10;ima&#10;defaul&#10;abou&#10;admin_&#10;video&#10;login.ctp&#10;cus&#10;about.ctp&#10;all.c&#10;Controller&#10;default.c&#10;controlle&#10;webr" />
     <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -307,6 +316,22 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.gitignore" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="74" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="84" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="89" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="992" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="76" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="85" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="91" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1000" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -367,6 +392,11 @@
       <created>1394153652215</created>
       <updated>1394153652215</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit con phpstorm">
+      <created>1397096404316</created>
+      <updated>1397096404316</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -393,7 +423,6 @@
     <frame x="39" y="-3" width="1330" height="775" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29555896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27105665" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -407,11 +436,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -429,9 +459,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23564954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -663,9 +693,7 @@
     </entry>
     <entry file="dbDummy://dbtable:/c6beb6c3/bfc5a3cc-8ba0-4d1d-a244-8a7dd4451d0c/thedead_app..users">
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
       </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
@@ -673,100 +701,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/CommentsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="5" selection-start="955" selection-end="3710" vertical-scroll-proportion="-19.541666" vertical-offset="1211" max-vertical-offset="1920">
-          <folding />
-        </state>
+        <state line="112" column="5" selection-start="955" selection-end="3710" vertical-scroll-proportion="-19.541666" vertical-offset="1211" max-vertical-offset="1920" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Users/admin_index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="46" selection-start="1789" selection-end="1789" vertical-scroll-proportion="1.4652318" vertical-offset="0" max-vertical-offset="1050">
-          <folding />
-        </state>
+        <state line="59" column="46" selection-start="1789" selection-end="1789" vertical-scroll-proportion="1.4652318" vertical-offset="0" max-vertical-offset="1050" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Users/login.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="775" selection-end="775" vertical-scroll-proportion="0.36906853" vertical-offset="90" max-vertical-offset="900">
-          <folding />
-        </state>
+        <state line="20" column="26" selection-start="775" selection-end="775" vertical-scroll-proportion="0.36906853" vertical-offset="90" max-vertical-offset="900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="33" selection-start="2651" selection-end="2651" vertical-scroll-proportion="0.84437084" vertical-offset="570" max-vertical-offset="3180">
-          <folding />
-        </state>
+        <state line="85" column="33" selection-start="2651" selection-end="2651" vertical-scroll-proportion="0.84437084" vertical-offset="570" max-vertical-offset="3180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Users/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="9" selection-start="1613" selection-end="1815" vertical-scroll-proportion="0.70033115" vertical-offset="132" max-vertical-offset="795">
-          <folding />
-        </state>
+        <state line="42" column="9" selection-start="1613" selection-end="1815" vertical-scroll-proportion="0.70033115" vertical-offset="132" max-vertical-offset="795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="28" selection-start="2738" selection-end="2738" vertical-scroll-proportion="0.58112586" vertical-offset="534" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/ItemsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="61" selection-start="2420" selection-end="2420" vertical-scroll-proportion="0.6523179" vertical-offset="866" max-vertical-offset="1470">
-          <folding />
-        </state>
+        <state line="74" column="28" selection-start="2738" selection-end="2738" vertical-scroll-proportion="0.58112586" vertical-offset="534" max-vertical-offset="1140" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Users/admin_edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="271" selection-end="271" vertical-scroll-proportion="0.2284264" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#464#502#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="9" column="35" selection-start="271" selection-end="271" vertical-scroll-proportion="0.2284264" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Users/admin_add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="827" selection-end="827" vertical-scroll-proportion="0.5177665" vertical-offset="69" max-vertical-offset="660">
-          <folding />
-        </state>
+        <state line="25" column="31" selection-start="827" selection-end="827" vertical-scroll-proportion="0.5177665" vertical-offset="69" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Contacts/admin_index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="278" selection-end="278" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="840">
+        <state line="9" column="22" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/ContactsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="28" selection-start="2038" selection-end="2038" vertical-scroll-proportion="-21.75" vertical-offset="408" max-vertical-offset="1185">
+        <state line="62" column="28" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Contacts/admin_view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="270" selection-end="270" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="8" column="45" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/News/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="14" selection-start="4337" selection-end="4337" vertical-scroll-proportion="-70.0" vertical-offset="0" max-vertical-offset="1890">
+        <state line="112" column="14" selection-start="4337" selection-end="4337" vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="1890">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="56" selection-start="750" selection-end="750" vertical-scroll-proportion="0.77242523" vertical-offset="0" max-vertical-offset="3990">
+        <state line="19" column="29" selection-start="436" selection-end="436" vertical-scroll-proportion="-0.0" vertical-offset="285" max-vertical-offset="3990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/ItemsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.6705298" vertical-offset="0" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
