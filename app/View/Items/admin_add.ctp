@@ -23,6 +23,7 @@ echo $this->Form->create('Items', array(
 echo $this->Form->input('name');
 echo $this->Form->input('description', array('rows' => '8'));
 echo $this->Form->input('type_id');
+echo $this->Form->input('img',array('type'=>'file'));
 echo $this->Form->end($options);
 ?>
 

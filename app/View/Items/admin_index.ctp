@@ -5,6 +5,7 @@
     <tr>
         <th>Id</th>
         <th>Nombre</th>
+        <th>Acciones</th>
         <th>Descripcion</th>
         <th>img</th>
         <th>type</th>
@@ -45,7 +46,7 @@
             <td>
                 <?php echo $item['Items']['description']; ?>
             </td>
-            <!--            Modificado-->
+            <!--            Img-->
             <td>
                 <?php echo $item['Items']['img']?>
             </td>

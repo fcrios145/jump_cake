@@ -46,6 +46,15 @@ Class ItemsController extends AppController
         $this->layout = 'cake';
         if ($this->request->is('post')) {
             $this->Items->create();
+            /*Imagenes*/
+            if (is_uploaded_file($this->request->data['Item']['img']['tmp_name'])) {
+                move_uploaded_file(
+                    $this->request->data['Item']['img']['tmp_name'],
+                    $this->imagen_ruta . $this->request->data['Item']['img']['name']
+                );
+                $this->request->data['Item']['img'] = $this->request->data['Item']['img']['name'];
+            }
+            /*Fin imagenes*/
             if ($this->Items->save($this->request->data)) {
                 $this->Session->setFlash(__('Item Guardado.'));
                 return $this->redirect(array('action' => 'admin_index'));
@@ -69,6 +78,14 @@ Class ItemsController extends AppController
 
         if ($this->request->is(array('post', 'put'))) {
             $this->Items->id = $id;
+            if (is_uploaded_file($this->request->data['Item']['img']['tmp_name']))
+            {
+                move_uploaded_file(
+                    $this->request->data['Item']['img']['tmp_name'],
+                    $this->imagen_ruta. $this->request->data['Item']['img']['name']
+                );
+                $this->request->data['Item']['img'] = $this->request->data['Item']['img']['name'];
+            }
             if ($this->Items->save($this->request->data)) {
                 $this->Session->setFlash(__('Your data has been updated.'));
                 return $this->redirect(array('action' => 'index'));
@@ -89,7 +106,8 @@ Class ItemsController extends AppController
         }
     }
 
-    public function admin_delete($id) {
+    public function admin_delete($id)
+    {
         $this->_isAuthorized('admin');
         if ($this->request->is('get')) {
             throw new MethodNotAllowedException();
