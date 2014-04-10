@@ -177,6 +177,84 @@ class UsersController extends AppController
         }
     }
 
+    public function admin_index()
+    {
+        $this->_isAuthorized('admin');
+        $this->layout = 'cake';
+        $this->set('users', $this->User->find('all'));
+    }
+
+    public function admin_view($id)
+    {
+        $this->_isAuthorized('admin');
+        $this->layout = 'cake';
+        if (!$id) {
+            throw new NotFoundException(__('Usuario no encontrado'));
+        }
+        $user = $this->User->findById($id);
+        if (!$user) {
+            throw new NotFoundException(__('Usuario guardado'));
+        }
+        $this->set('comment', $user);
+    }
+
+    public function admin_add()
+    {
+        $this->_isAuthorized('admin');
+        $this->layout = 'cake';
+        if ($this->request->is('POST')) {
+            $this->User->create();
+            if ($this->User->save($this->request->data)) {
+                $this->Session->setFlash(__('The user has been created'));
+                $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash(__('The user could not be created. Please, try again.'));
+            }
+        }
+        /*Roles de usuario admin y normal*/
+
+    }
+
+    public function admin_edit($id = null) {
+        $this->_isAuthorized('admin');
+        $this->layout = 'cake';
+        if (!$id) {
+            throw new NotFoundException(__('Invalid'));
+        }
+
+        $user = $this->User->findById($id);
+        if (!$user) {
+            throw new NotFoundException(__('Invalid'));
+        }
+
+        if ($this->request->is(array('post', 'put'))) {
+            $this->User->id = $id;
+            if ($this->User->save($this->request->data)) {
+                $this->Session->setFlash(__('Your data has been updated.'));
+                return $this->redirect(array('action' => 'index'));
+            }
+            $this->Session->setFlash(__('Unable to update your data.'));
+        }
+
+        if (!$this->request->data) {
+            $this->request->data = $user;
+        }
+    }
+
+    public function admin_delete($id) {
+        $this->_isAuthorized('admin');
+        if ($this->request->is('get')) {
+            throw new MethodNotAllowedException();
+        }
+
+        if ($this->User->delete($id)) {
+            $this->Session->setFlash(
+                __('El USuario con el id: %s ha sido borrado :/.', h($id))
+            );
+            return $this->redirect(array('action' => 'index'));
+        }
+    }
+
 }
 
 ?>
