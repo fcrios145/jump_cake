@@ -20,7 +20,7 @@ Class ItemsController extends AppController
     public function admin_index()
     {
         $this->_isAuthorized('admin');
-        $this->layout = false;
+        $this->layout = 'cake';
         $this->set('items', $this->Items->find('all'));
     }
 
