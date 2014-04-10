@@ -89,6 +89,20 @@ Class ItemsController extends AppController
         }
     }
 
+    public function admin_delete($id) {
+        $this->_isAuthorized('admin');
+        if ($this->request->is('get')) {
+            throw new MethodNotAllowedException();
+        }
+
+        if ($this->Item->delete($id)) {
+            $this->Session->setFlash(
+                __('El Item con el id: %s ha sido borrado :/.', h($id))
+            );
+            return $this->redirect(array('action' => 'index'));
+        }
+    }
+
 
 }
 
