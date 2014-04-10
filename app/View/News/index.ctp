@@ -26,6 +26,9 @@
             <?php echo $this->Html->image('slider1.png', array('alt' => 'slider1', 'class' => 'img-responsive'));     ?>
             <div class="container">
                 <div class="carousel-caption">
+                    <p>
+                        <a href="https://apps.facebook.com/doublejump_demo/" class="btn btn-primary btn-lg" role="button">Jugar</a></p>
+                    </p>
 <!--                    <h1>Bootstrap 3 Carousel Layout</h1>-->
 <!--                    <pthis is="" an="" example="" layout="" with="" carousel="" that="" uses="" the="" bootstrap="" 3="" styles.<="" small=""><p></p>-->
 <!--                    <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com">Learn More</a>-->
@@ -67,11 +70,12 @@
 <div class="jumbotron" style="background-color: transparent !important;">
     <div class="container">
         <h1>Que esperas!</h1>
-        <p>Adentrate en el mundo donde los muertos ya no son lo que eran antes, vive las mejores aventuras con tus mejores amigos y comparte tus avances en las redes sociales</p>
-        <p>
-            <a href="http://moreno.hol.es/DEAD.html" class="btn-default btn ">Jugar</a>
-
+        <p>Adentrate en el mundo donde los muertos ya no son lo que eran antes, vive las mejores aventuras con tus mejores amigos y comparte tus avances en las redes sociales
         </p>
+        <p>
+            <a href="https://apps.facebook.com/doublejump_demo/" class="btn btn-primary btn-lg" role="button">Jugar</a></p>
+        </p>
+        <p>
     </div>
 </div>
 

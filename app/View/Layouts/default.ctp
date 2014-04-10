@@ -63,7 +63,10 @@
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li class="active"><?php echo $this->Html->link(
+                        <li class="active">
+                            <a href="https://apps.facebook.com/doublejump_demo/">Jugar</a>
+                        </li>
+                        <li><?php echo $this->Html->link(
                                 'Inicio',
                                 array(
                                     'controller' => 'news',

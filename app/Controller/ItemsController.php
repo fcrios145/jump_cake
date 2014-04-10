@@ -5,6 +5,8 @@ Class ItemsController extends AppController
     public $uses = array('Items');
     var $components = array('Session');
 
+    var $imagen_ruta= '/opt/lampp/htdocs/jump_cake/app/webroot';
+
 
     public function beforeFilter()
     {
