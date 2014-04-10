@@ -22,9 +22,22 @@
     ?>
     <h2 class="form-signin-heading">Contacto</h2>
     <?php
-    echo $this->Form->input('name');
-    echo $this->Form->input('email');
-    echo $this->Form->input('comment', array('rows' => '8'));
+    echo $this->Form->input('name', array(
+        'placeholder' => 'Nombre',
+        'label' => false
+    ));
+    echo $this->Form->input('email', array(
+        'placeholder' => 'Email',
+        'label' => false
+    ));
+    echo $this->Form->input('comment', array(
+        'placeholder' => 'Comentario',
+        'label' => false,
+        'rows' => '8'
+    ));
+//    echo $this->Form->input('name');
+//    echo $this->Form->input('email');
+//    echo $this->Form->input('comment', array('rows' => '8'));
     //    echo $this->Form->input('role', array(
     //        'options' => array( 'king' => 'King', 'queen' => 'Queen', 'rook' => 'Rook', 'bishop' => 'Bishop', 'knight' => 'Knight', 'pawn' => 'Pawn')
     //    ));

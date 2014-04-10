@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0164c06-55d1-41a1-aad7-b01e8b055d77" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Layouts/cake.ctp" afterPath="$PROJECT_DIR$/app/View/Layouts/cake.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Contacts/add.ctp" afterPath="$PROJECT_DIR$/app/View/Contacts/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Items/all.ctp" afterPath="$PROJECT_DIR$/app/View/Items/all.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cakephp-cakephp-12992fb.iws" />
@@ -72,11 +73,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cake.ctp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cake.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Layouts/cake.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="50" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.5016611" vertical-offset="178" max-vertical-offset="780">
+            <state line="45" column="50" selection-start="1270" selection-end="1270" vertical-scroll-proportion="-11.333333" vertical-offset="178" max-vertical-offset="780">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Users/login.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="54" selection-start="1153" selection-end="1153" vertical-scroll-proportion="-15.0" vertical-offset="90" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Contacts/add.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="38" selection-start="1201" selection-end="1201" vertical-scroll-proportion="-16.666666" vertical-offset="155" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.ctp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/View/Items/all.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="39" selection-start="193" selection-end="193" vertical-scroll-proportion="0.077586204" vertical-offset="0" max-vertical-offset="580">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,9 +155,7 @@
         <option value="$PROJECT_DIR$/app/View/Pages/about.ctp" />
         <option value="$PROJECT_DIR$/app/View/Users/login.ctp" />
         <option value="$PROJECT_DIR$/app/View/Users/add.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Items/all.ctp" />
         <option value="$PROJECT_DIR$/app/View/News/index.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Contacts/add.ctp" />
         <option value="$PROJECT_DIR$/app/View/Layouts/default.ctp" />
         <option value="$PROJECT_DIR$/app/Model/Contact.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -154,6 +182,8 @@
         <option value="$PROJECT_DIR$/app/Controller/UsersController.php" />
         <option value="$PROJECT_DIR$/app/Controller/ItemsController.php" />
         <option value="$PROJECT_DIR$/app/View/Layouts/cake.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Contacts/add.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Items/all.ctp" />
       </list>
     </option>
   </component>
@@ -206,7 +236,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -217,11 +247,83 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump_cake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump_cake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump_cake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-cakephp-12992fb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jump_cake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="cake&#10;ItemsControl&#10;Items&#10;data&#10;login&#10;Comment&#10;admin&#10;UsersController&#10;Users&#10;News&#10;view&#10;lo&#10;Ite&#10;use&#10;defa&#10;admin_add&#10;add&#10;database&#10;index&#10;admin_ind&#10;all&#10;Author&#10;about&#10;all.ctp&#10;custom&#10;default&#10;admin_index&#10;NewsC&#10;Au&#10;users&#10;defau&#10;vie&#10;User&#10;NewsCon&#10;App&#10;link&#10;Usersc&#10;ima&#10;defaul&#10;abou&#10;admin_&#10;video&#10;login.ctp&#10;cus&#10;about.ctp&#10;all.c&#10;Controller&#10;default.c&#10;controlle&#10;webr" />
+    <property name="SearchEverywhereHistory" value="&#10;add&#10;login&#10;cake&#10;ItemsControl&#10;Items&#10;data&#10;Comment&#10;admin&#10;UsersController&#10;Users&#10;News&#10;view&#10;lo&#10;Ite&#10;use&#10;defa&#10;admin_add&#10;database&#10;index&#10;admin_ind&#10;all&#10;Author&#10;about&#10;all.ctp&#10;custom&#10;default&#10;admin_index&#10;NewsC&#10;Au&#10;users&#10;defau&#10;vie&#10;User&#10;NewsCon&#10;App&#10;link&#10;Usersc&#10;ima&#10;defaul&#10;abou&#10;admin_&#10;video&#10;login.ctp&#10;cus&#10;about.ctp&#10;all.c&#10;Controller&#10;default.c&#10;controlle" />
     <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -324,7 +426,11 @@
       <created>1397108519644</created>
       <updated>1397108519644</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Quitar links de cake del cake.ctp">
+      <created>1397109782325</created>
+      <updated>1397109782325</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -357,7 +463,7 @@
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28939158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24882995" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21372855" sideWeight="0.49923664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21372855" sideWeight="0.49923664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21372855" sideWeight="0.50076336" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -407,7 +513,8 @@
     <MESSAGE value="Commit con phpstorm" />
     <MESSAGE value="Fix de bug al guardar item" />
     <MESSAGE value="Fix al borrar item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix al borrar item" />
+    <MESSAGE value="Quitar links de cake del cake.ctp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quitar links de cake del cake.ctp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -478,11 +585,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Items/all.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="480" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Authors/admin_index.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="975" />
@@ -491,11 +593,6 @@
     <entry file="file://$PROJECT_DIR$/app/View/News/admin_add.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="340" selection-end="394" vertical-scroll-proportion="0.552" vertical-offset="0" max-vertical-offset="625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Contacts/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Errors/error400.ctp">
@@ -626,11 +723,6 @@
         <state line="59" column="46" selection-start="1789" selection-end="1789" vertical-scroll-proportion="1.4652318" vertical-offset="0" max-vertical-offset="1050" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Users/login.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="775" selection-end="775" vertical-scroll-proportion="0.36906853" vertical-offset="90" max-vertical-offset="900" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="33" selection-start="2651" selection-end="2651" vertical-scroll-proportion="0.84437084" vertical-offset="570" max-vertical-offset="3180" />
@@ -710,8 +802,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Layouts/cake.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="50" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.5016611" vertical-offset="178" max-vertical-offset="780">
+        <state line="45" column="50" selection-start="1270" selection-end="1270" vertical-scroll-proportion="-11.333333" vertical-offset="178" max-vertical-offset="780">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Users/login.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="54" selection-start="1153" selection-end="1153" vertical-scroll-proportion="-15.0" vertical-offset="90" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Contacts/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="38" selection-start="1201" selection-end="1201" vertical-scroll-proportion="-16.666666" vertical-offset="155" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Items/all.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="39" selection-start="193" selection-end="193" vertical-scroll-proportion="0.077586204" vertical-offset="0" max-vertical-offset="580">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
