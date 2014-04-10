@@ -95,7 +95,7 @@ Class ItemsController extends AppController
             throw new MethodNotAllowedException();
         }
 
-        if ($this->Item->delete($id)) {
+        if ($this->Items->delete($id)) {
             $this->Session->setFlash(
                 __('El Item con el id: %s ha sido borrado :/.', h($id))
             );

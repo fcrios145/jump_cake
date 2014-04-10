@@ -65,7 +65,7 @@
       <file leaf-file-name="ItemsController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Controller/ItemsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="28" selection-start="2783" selection-end="2783" vertical-scroll-proportion="0.8255814" vertical-offset="973" max-vertical-offset="1710">
+            <state line="97" column="24" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.8006644" vertical-offset="973" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
@@ -306,7 +306,11 @@
       <created>1397107210047</created>
       <updated>1397107210047</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix al borrar item">
+      <created>1397108345864</created>
+      <updated>1397108345864</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -388,7 +392,8 @@
     </option>
     <MESSAGE value="Commit con phpstorm" />
     <MESSAGE value="Fix de bug al guardar item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix de bug al guardar item" />
+    <MESSAGE value="Fix al borrar item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix al borrar item" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -689,7 +694,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/ItemsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="28" selection-start="2783" selection-end="2783" vertical-scroll-proportion="0.8255814" vertical-offset="973" max-vertical-offset="1710">
+        <state line="97" column="24" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.8006644" vertical-offset="973" max-vertical-offset="1710">
           <folding />
         </state>
       </provider>
