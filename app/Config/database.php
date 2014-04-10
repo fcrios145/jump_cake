@@ -61,7 +61,7 @@
  */
 class DATABASE_CONFIG {
 
-	public $default = array(
+	public $test = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => '127.0.0.1',
@@ -72,7 +72,7 @@ class DATABASE_CONFIG {
 		//'encoding' => 'utf8',
 	);
 
-	public $test = array(
+	public $default = array(
         'datasource' => 'Database/Mysql',
         'persistent' => false,
         'host' => 'mysql.alwaysdata.com',
